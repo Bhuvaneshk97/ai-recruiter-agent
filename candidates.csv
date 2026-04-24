@@ -1,0 +1,1001 @@
+name,title,experience,skills,location,notice_days,email
+Meera Kumar,BI Analyst,7.5,"python,tableau,azure",Bangalore,60,user0@mail.com
+Priya Raman,Reporting Analyst,4.5,"tableau,sql,dax,excel",Pune,90,user1@mail.com
+Kiran Prakash,Power BI Developer,7.8,"python,tableau,power bi,power query,dax",Mumbai,15,user2@mail.com
+Anita Patel,BI Analyst,6.2,"azure,power bi,dax,python",Bangalore,45,user3@mail.com
+Asha Shah,Data Analyst,7.1,"tableau,azure,python",Pune,60,user4@mail.com
+Kiran Kumar,Power BI Developer,3.2,"dax,azure,sql,excel",Chennai,15,user5@mail.com
+Asha Reddy,Reporting Analyst,5.7,"power query,excel,dax,sql,power bi",Mumbai,15,user6@mail.com
+Arun Reddy,Reporting Analyst,2.3,"python,sql,excel,power query,dax,azure",Bangalore,60,user7@mail.com
+Priya Raman,Business Analyst,5.1,"excel,python,azure,power bi,dax",Hyderabad,30,user8@mail.com
+Rahul Raman,Reporting Analyst,4.0,"dax,azure,sql,power bi,tableau,power query",Chennai,15,user9@mail.com
+Rahul Iyer,Business Analyst,2.3,"power bi,sql,tableau",Hyderabad,30,user10@mail.com
+Arun Nair,Power BI Developer,1.6,"power query,python,dax,tableau,sql,excel",Bangalore,30,user11@mail.com
+Rahul Raman,Power BI Developer,6.3,"sql,python,excel,azure,tableau,power query",Chennai,45,user12@mail.com
+Priya Shah,Data Analyst,4.1,"tableau,sql,dax,python",Pune,45,user13@mail.com
+Priya Kumar,Data Analyst,2.0,"power bi,sql,excel",Bangalore,90,user14@mail.com
+Anita Nair,Data Analyst,6.8,"power bi,azure,dax",Hyderabad,45,user15@mail.com
+Anita Kumar,Power BI Developer,4.4,"dax,sql,tableau,azure",Mumbai,45,user16@mail.com
+Priya Shah,Data Analyst,6.1,"sql,azure,excel",Pune,90,user17@mail.com
+Anita Reddy,Power BI Developer,6.7,"power bi,tableau,power query,dax,python,azure",Bangalore,30,user18@mail.com
+Sneha Raman,Power BI Developer,5.6,"dax,azure,tableau,excel,python,power bi",Pune,15,user19@mail.com
+Rahul Raman,Data Analyst,4.2,"azure,excel,python,power query",Hyderabad,30,user20@mail.com
+Arun Nair,Business Analyst,3.9,"power query,azure,power bi,python",Chennai,60,user21@mail.com
+Arun Shah,BI Analyst,5.8,"sql,power query,power bi,tableau,azure",Hyderabad,30,user22@mail.com
+Asha Nair,Business Analyst,3.5,"tableau,power query,azure,sql,power bi",Pune,60,user23@mail.com
+Arun Nair,BI Analyst,4.9,"power bi,sql,power query,excel,tableau,azure",Hyderabad,45,user24@mail.com
+Asha Patel,Business Analyst,5.9,"azure,tableau,power bi",Pune,60,user25@mail.com
+Arun Kumar,Data Analyst,2.1,"power query,power bi,tableau,dax,python",Pune,90,user26@mail.com
+Asha Kumar,BI Analyst,4.0,"azure,excel,dax,power bi,sql",Pune,15,user27@mail.com
+Rohit Patel,Data Analyst,2.8,"tableau,dax,power bi,power query,azure,excel",Hyderabad,30,user28@mail.com
+Vikram Shah,Power BI Developer,7.1,"python,excel,power query,sql,power bi,dax",Bangalore,60,user29@mail.com
+Vikram Shah,Reporting Analyst,7.6,"power bi,excel,sql",Pune,15,user30@mail.com
+Sneha Iyer,Business Analyst,1.5,"python,power bi,dax,azure",Bangalore,45,user31@mail.com
+Anita Kumar,Power BI Developer,5.0,"dax,power query,tableau,excel",Hyderabad,60,user32@mail.com
+Sneha Shah,Reporting Analyst,5.8,"azure,power query,dax",Hyderabad,60,user33@mail.com
+Rohit Reddy,Power BI Developer,1.5,"power query,tableau,azure",Pune,60,user34@mail.com
+Rahul Patel,Power BI Developer,3.4,"sql,dax,tableau,python,azure,power query",Hyderabad,30,user35@mail.com
+Arun Iyer,Business Analyst,5.5,"power bi,tableau,python",Mumbai,90,user36@mail.com
+Rahul Prakash,Business Analyst,6.7,"tableau,power bi,dax,sql,python,excel",Chennai,45,user37@mail.com
+Vikram Iyer,BI Analyst,6.0,"azure,excel,power query,dax,power bi",Pune,30,user38@mail.com
+Asha Shah,Business Analyst,6.1,"python,dax,azure,sql,power query,power bi",Pune,15,user39@mail.com
+Anita Patel,Power BI Developer,4.2,"excel,power bi,azure,dax",Mumbai,90,user40@mail.com
+Rohit Reddy,Business Analyst,5.4,"azure,power query,python,tableau,power bi,excel",Mumbai,60,user41@mail.com
+Rahul Shah,Reporting Analyst,7.1,"power bi,python,azure,tableau,sql",Mumbai,90,user42@mail.com
+Rahul Reddy,Business Analyst,4.9,"dax,azure,python",Hyderabad,90,user43@mail.com
+Kiran Patel,BI Analyst,2.1,"power query,sql,tableau,azure",Bangalore,90,user44@mail.com
+Arun Reddy,Reporting Analyst,2.8,"tableau,azure,dax",Chennai,60,user45@mail.com
+Sneha Prakash,Business Analyst,6.3,"power bi,azure,power query,sql,dax",Mumbai,90,user46@mail.com
+Arun Patel,Data Analyst,4.2,"excel,azure,power query,power bi,python",Mumbai,90,user47@mail.com
+Asha Nair,Business Analyst,6.7,"power bi,python,sql,tableau,excel,azure",Pune,45,user48@mail.com
+Vikram Prakash,Data Analyst,5.8,"python,power query,excel,azure,tableau,power bi",Hyderabad,15,user49@mail.com
+Vikram Patel,Business Analyst,6.8,"excel,tableau,sql,azure,python,power bi",Pune,45,user50@mail.com
+Arun Prakash,Data Analyst,3.8,"power bi,azure,power query",Hyderabad,30,user51@mail.com
+Meera Iyer,BI Analyst,6.9,"azure,power bi,sql,dax",Pune,60,user52@mail.com
+Priya Patel,Power BI Developer,3.6,"python,power query,sql",Mumbai,60,user53@mail.com
+Arun Raman,Power BI Developer,5.7,"power bi,tableau,power query,dax",Chennai,45,user54@mail.com
+Meera Nair,BI Analyst,5.3,"dax,power query,tableau,python,azure,power bi",Chennai,60,user55@mail.com
+Arun Nair,Data Analyst,2.2,"power bi,azure,power query,tableau",Chennai,15,user56@mail.com
+Sneha Patel,Data Analyst,3.4,"power bi,azure,dax,excel,sql,power query",Hyderabad,60,user57@mail.com
+Rahul Nair,Power BI Developer,4.4,"power bi,sql,excel,python,tableau,dax",Pune,45,user58@mail.com
+Meera Nair,BI Analyst,2.3,"power bi,tableau,sql",Hyderabad,15,user59@mail.com
+Vikram Iyer,BI Analyst,4.2,"sql,dax,power query,excel,azure",Mumbai,45,user60@mail.com
+Sneha Prakash,Power BI Developer,3.7,"azure,power query,python,sql",Hyderabad,90,user61@mail.com
+Kiran Kumar,Power BI Developer,3.1,"power query,azure,excel",Bangalore,90,user62@mail.com
+Kiran Nair,Business Analyst,1.8,"power query,power bi,dax",Pune,60,user63@mail.com
+Asha Iyer,BI Analyst,3.9,"python,power query,excel",Mumbai,15,user64@mail.com
+Priya Patel,Power BI Developer,2.7,"power bi,excel,dax,sql,python,azure",Hyderabad,15,user65@mail.com
+Priya Nair,Reporting Analyst,3.6,"tableau,dax,power bi,sql,python",Chennai,90,user66@mail.com
+Anita Reddy,Business Analyst,7.1,"tableau,azure,sql",Pune,60,user67@mail.com
+Meera Prakash,Reporting Analyst,2.0,"power query,tableau,dax",Pune,45,user68@mail.com
+Sneha Raman,BI Analyst,4.9,"excel,dax,sql,azure,power query,tableau",Hyderabad,90,user69@mail.com
+Rohit Prakash,Reporting Analyst,3.4,"power bi,dax,tableau,azure",Bangalore,15,user70@mail.com
+Vikram Shah,BI Analyst,3.9,"python,sql,dax,tableau",Chennai,30,user71@mail.com
+Rohit Patel,Reporting Analyst,5.9,"python,azure,sql",Hyderabad,45,user72@mail.com
+Anita Patel,Reporting Analyst,5.3,"sql,power bi,tableau,python",Mumbai,90,user73@mail.com
+Rohit Iyer,Reporting Analyst,8.0,"power bi,tableau,python,azure,dax,power query",Pune,45,user74@mail.com
+Rohit Kumar,Business Analyst,4.3,"dax,tableau,power query,excel",Pune,15,user75@mail.com
+Priya Iyer,Reporting Analyst,3.7,"excel,azure,power query,tableau,python,power bi",Hyderabad,15,user76@mail.com
+Vikram Prakash,Data Analyst,2.7,"power query,excel,tableau,dax,python",Mumbai,45,user77@mail.com
+Vikram Reddy,Business Analyst,1.3,"power query,azure,tableau,dax,sql",Bangalore,60,user78@mail.com
+Asha Iyer,Power BI Developer,6.0,"sql,azure,tableau,python,power query,dax",Chennai,15,user79@mail.com
+Sneha Iyer,Power BI Developer,2.9,"tableau,power bi,dax,azure,power query",Chennai,30,user80@mail.com
+Kiran Kumar,Reporting Analyst,4.8,"dax,tableau,azure,excel",Bangalore,15,user81@mail.com
+Kiran Reddy,Reporting Analyst,4.6,"azure,sql,power query",Chennai,15,user82@mail.com
+Anita Raman,Reporting Analyst,3.8,"power query,sql,python,excel",Hyderabad,30,user83@mail.com
+Sneha Iyer,Data Analyst,2.4,"sql,dax,power bi,python,excel",Hyderabad,15,user84@mail.com
+Arun Prakash,BI Analyst,3.3,"tableau,azure,power bi",Chennai,30,user85@mail.com
+Asha Raman,Reporting Analyst,1.1,"power query,excel,power bi,dax",Pune,15,user86@mail.com
+Vikram Nair,BI Analyst,5.9,"dax,python,excel",Pune,45,user87@mail.com
+Kiran Reddy,Reporting Analyst,3.6,"power query,power bi,python,tableau",Pune,15,user88@mail.com
+Sneha Prakash,Data Analyst,1.3,"power bi,dax,tableau,sql",Chennai,30,user89@mail.com
+Arun Reddy,Reporting Analyst,3.4,"excel,tableau,azure,dax,python",Mumbai,90,user90@mail.com
+Rohit Raman,Reporting Analyst,2.4,"power query,excel,power bi,azure",Hyderabad,60,user91@mail.com
+Rohit Iyer,BI Analyst,7.5,"power bi,dax,azure",Bangalore,30,user92@mail.com
+Priya Prakash,Data Analyst,6.0,"power query,excel,power bi,azure",Mumbai,60,user93@mail.com
+Kiran Nair,Power BI Developer,6.7,"sql,dax,excel,power query",Chennai,60,user94@mail.com
+Rahul Nair,Business Analyst,4.9,"python,sql,power query,tableau,power bi",Bangalore,30,user95@mail.com
+Sneha Shah,Power BI Developer,3.2,"sql,tableau,power bi",Bangalore,60,user96@mail.com
+Rohit Shah,Business Analyst,7.2,"sql,python,power query,power bi,tableau",Mumbai,15,user97@mail.com
+Kiran Prakash,Power BI Developer,6.6,"azure,power bi,dax,python,power query",Pune,60,user98@mail.com
+Priya Reddy,BI Analyst,1.9,"power bi,tableau,power query,python,dax",Pune,15,user99@mail.com
+Meera Kumar,Reporting Analyst,4.9,"excel,sql,python",Hyderabad,90,user100@mail.com
+Asha Shah,BI Analyst,3.8,"power bi,python,azure,excel,dax",Hyderabad,30,user101@mail.com
+Sneha Reddy,Data Analyst,1.6,"dax,azure,tableau,power bi",Mumbai,90,user102@mail.com
+Meera Shah,Power BI Developer,7.1,"excel,dax,sql",Pune,30,user103@mail.com
+Sneha Patel,Business Analyst,2.3,"azure,power query,tableau,sql",Bangalore,30,user104@mail.com
+Anita Prakash,Reporting Analyst,1.6,"power query,sql,excel,python,power bi",Chennai,60,user105@mail.com
+Priya Shah,Power BI Developer,5.6,"tableau,power bi,dax",Bangalore,60,user106@mail.com
+Rahul Nair,Reporting Analyst,2.7,"azure,python,power query,power bi,excel,dax",Hyderabad,60,user107@mail.com
+Priya Prakash,Business Analyst,1.7,"tableau,sql,excel,azure",Pune,90,user108@mail.com
+Asha Prakash,Reporting Analyst,6.8,"sql,python,azure,dax,excel",Hyderabad,45,user109@mail.com
+Priya Kumar,Data Analyst,5.7,"power bi,tableau,excel",Chennai,45,user110@mail.com
+Sneha Prakash,Reporting Analyst,3.8,"tableau,azure,python,power query,power bi,excel",Hyderabad,60,user111@mail.com
+Arun Reddy,Business Analyst,2.8,"python,power bi,sql,excel,dax,azure",Chennai,15,user112@mail.com
+Rahul Shah,Business Analyst,6.7,"dax,tableau,python,power query,power bi",Hyderabad,15,user113@mail.com
+Rohit Prakash,BI Analyst,2.0,"python,excel,dax,tableau,azure",Chennai,60,user114@mail.com
+Rohit Prakash,Power BI Developer,7.1,"dax,tableau,sql,azure,power bi,excel",Bangalore,60,user115@mail.com
+Asha Iyer,Business Analyst,5.0,"excel,tableau,python,power query",Bangalore,60,user116@mail.com
+Sneha Reddy,Data Analyst,7.6,"power bi,power query,azure",Bangalore,15,user117@mail.com
+Vikram Patel,Reporting Analyst,7.9,"power query,tableau,python",Mumbai,45,user118@mail.com
+Meera Reddy,Data Analyst,6.7,"sql,dax,tableau",Mumbai,30,user119@mail.com
+Kiran Raman,Business Analyst,4.6,"dax,tableau,power query,power bi",Pune,30,user120@mail.com
+Priya Reddy,Data Analyst,7.3,"excel,azure,sql",Pune,45,user121@mail.com
+Rahul Prakash,Reporting Analyst,5.5,"sql,azure,dax",Bangalore,15,user122@mail.com
+Anita Nair,Business Analyst,3.8,"dax,azure,sql",Hyderabad,60,user123@mail.com
+Kiran Iyer,BI Analyst,2.5,"tableau,sql,power bi",Mumbai,30,user124@mail.com
+Priya Nair,Business Analyst,7.6,"dax,sql,python",Bangalore,45,user125@mail.com
+Vikram Reddy,BI Analyst,3.5,"tableau,python,azure,excel,dax",Chennai,90,user126@mail.com
+Sneha Shah,Data Analyst,3.8,"python,power query,excel,tableau,power bi",Mumbai,45,user127@mail.com
+Kiran Prakash,Business Analyst,3.9,"python,power bi,dax,sql,excel,tableau",Mumbai,90,user128@mail.com
+Meera Kumar,Reporting Analyst,1.3,"power query,sql,python,tableau",Chennai,90,user129@mail.com
+Arun Reddy,Business Analyst,1.6,"excel,dax,python,power query",Pune,60,user130@mail.com
+Kiran Reddy,Business Analyst,7.8,"sql,python,tableau,dax,excel,azure",Hyderabad,30,user131@mail.com
+Anita Raman,Data Analyst,3.4,"power query,excel,sql",Pune,15,user132@mail.com
+Rahul Iyer,Business Analyst,4.2,"dax,excel,tableau,power bi",Hyderabad,90,user133@mail.com
+Priya Shah,BI Analyst,3.0,"power query,power bi,dax,excel,tableau,python",Mumbai,30,user134@mail.com
+Arun Raman,BI Analyst,5.5,"power query,azure,excel,tableau,python,sql",Hyderabad,30,user135@mail.com
+Kiran Reddy,Reporting Analyst,6.2,"azure,tableau,power bi",Bangalore,90,user136@mail.com
+Priya Prakash,Reporting Analyst,3.1,"sql,power query,dax,power bi,excel",Chennai,30,user137@mail.com
+Kiran Nair,Power BI Developer,2.5,"sql,tableau,dax,power query",Mumbai,45,user138@mail.com
+Anita Patel,BI Analyst,7.2,"python,tableau,power query,azure",Bangalore,60,user139@mail.com
+Anita Prakash,Business Analyst,4.1,"tableau,azure,power bi,power query",Bangalore,45,user140@mail.com
+Meera Iyer,Data Analyst,4.2,"tableau,dax,python,excel",Mumbai,15,user141@mail.com
+Meera Nair,Reporting Analyst,3.6,"python,sql,power query,tableau,excel,power bi",Hyderabad,30,user142@mail.com
+Arun Kumar,BI Analyst,4.7,"python,dax,tableau,azure,power query",Chennai,60,user143@mail.com
+Kiran Prakash,BI Analyst,7.4,"excel,tableau,sql,dax",Chennai,45,user144@mail.com
+Rohit Patel,Data Analyst,2.7,"sql,power query,python,excel,power bi,dax",Pune,30,user145@mail.com
+Priya Iyer,Data Analyst,4.0,"tableau,azure,power bi,power query",Pune,60,user146@mail.com
+Rohit Reddy,BI Analyst,4.4,"dax,sql,azure,python,power query",Pune,15,user147@mail.com
+Arun Prakash,Business Analyst,3.7,"excel,power query,azure,python,sql,tableau",Hyderabad,45,user148@mail.com
+Arun Iyer,Business Analyst,3.8,"tableau,azure,python,excel",Pune,60,user149@mail.com
+Kiran Patel,Reporting Analyst,5.9,"azure,sql,power bi,power query,dax",Mumbai,45,user150@mail.com
+Meera Prakash,BI Analyst,5.3,"azure,sql,python,dax,power query",Mumbai,15,user151@mail.com
+Rahul Patel,Business Analyst,5.4,"sql,power bi,python,azure,power query",Mumbai,45,user152@mail.com
+Arun Kumar,BI Analyst,5.7,"python,power query,azure,dax,power bi",Pune,15,user153@mail.com
+Rohit Nair,Data Analyst,7.8,"dax,tableau,python,power bi,excel",Chennai,15,user154@mail.com
+Rohit Reddy,Business Analyst,2.5,"power bi,excel,azure,power query,dax,tableau",Mumbai,90,user155@mail.com
+Rahul Reddy,Reporting Analyst,6.7,"excel,azure,python",Pune,45,user156@mail.com
+Anita Iyer,Power BI Developer,3.6,"power bi,power query,dax,azure,python",Pune,15,user157@mail.com
+Anita Nair,Reporting Analyst,7.3,"power query,excel,tableau,python",Chennai,15,user158@mail.com
+Rohit Raman,Reporting Analyst,1.4,"excel,sql,tableau",Chennai,45,user159@mail.com
+Anita Shah,Reporting Analyst,3.3,"dax,azure,excel",Hyderabad,60,user160@mail.com
+Kiran Reddy,Power BI Developer,6.8,"python,excel,tableau",Chennai,45,user161@mail.com
+Kiran Iyer,Data Analyst,2.9,"sql,power query,power bi",Pune,60,user162@mail.com
+Rahul Patel,Reporting Analyst,4.8,"dax,tableau,python,power query",Pune,15,user163@mail.com
+Priya Reddy,Power BI Developer,7.3,"sql,dax,power query,tableau",Pune,30,user164@mail.com
+Kiran Kumar,BI Analyst,1.3,"power bi,excel,dax",Mumbai,60,user165@mail.com
+Vikram Nair,BI Analyst,5.5,"dax,azure,power query,sql,power bi,tableau",Mumbai,15,user166@mail.com
+Arun Prakash,Power BI Developer,6.2,"sql,azure,tableau",Mumbai,60,user167@mail.com
+Meera Patel,Data Analyst,4.1,"sql,tableau,power query,python,power bi",Pune,60,user168@mail.com
+Meera Shah,Business Analyst,6.6,"power bi,power query,dax,tableau,sql,python",Mumbai,30,user169@mail.com
+Priya Shah,Business Analyst,4.3,"excel,tableau,power bi,sql,python,dax",Hyderabad,45,user170@mail.com
+Vikram Kumar,Business Analyst,7.9,"tableau,azure,sql",Hyderabad,15,user171@mail.com
+Asha Patel,BI Analyst,1.8,"tableau,power bi,excel,python,sql,azure",Pune,45,user172@mail.com
+Priya Patel,Reporting Analyst,2.1,"power query,dax,tableau",Hyderabad,30,user173@mail.com
+Arun Patel,Data Analyst,2.8,"sql,dax,power query,azure",Pune,30,user174@mail.com
+Meera Iyer,Business Analyst,3.9,"power query,azure,tableau,dax",Mumbai,15,user175@mail.com
+Anita Reddy,Business Analyst,1.3,"excel,dax,power query,python",Bangalore,60,user176@mail.com
+Rahul Kumar,Reporting Analyst,3.5,"power query,python,azure,sql,power bi,dax",Chennai,90,user177@mail.com
+Vikram Kumar,BI Analyst,5.4,"power query,excel,python,dax,tableau,azure",Pune,60,user178@mail.com
+Arun Nair,Data Analyst,4.6,"excel,tableau,python,azure,power query,sql",Bangalore,15,user179@mail.com
+Priya Nair,Business Analyst,6.6,"python,power bi,dax",Hyderabad,30,user180@mail.com
+Kiran Patel,Data Analyst,7.2,"power query,power bi,dax",Chennai,30,user181@mail.com
+Anita Nair,BI Analyst,3.2,"tableau,dax,python,azure,power bi",Bangalore,90,user182@mail.com
+Vikram Reddy,BI Analyst,3.1,"excel,sql,power bi,power query,azure,python",Bangalore,90,user183@mail.com
+Sneha Shah,Reporting Analyst,5.1,"python,excel,sql",Pune,30,user184@mail.com
+Kiran Kumar,BI Analyst,4.7,"power bi,power query,dax",Mumbai,15,user185@mail.com
+Anita Nair,Power BI Developer,7.2,"power query,tableau,power bi,azure,sql,dax",Pune,15,user186@mail.com
+Arun Raman,Power BI Developer,6.4,"python,power query,power bi,tableau",Hyderabad,30,user187@mail.com
+Rahul Iyer,Business Analyst,4.6,"azure,python,tableau,power bi",Hyderabad,60,user188@mail.com
+Anita Kumar,Data Analyst,2.8,"sql,tableau,dax,python",Mumbai,60,user189@mail.com
+Kiran Shah,BI Analyst,6.9,"power query,power bi,python",Hyderabad,45,user190@mail.com
+Asha Raman,Power BI Developer,3.2,"azure,power query,dax",Mumbai,90,user191@mail.com
+Asha Prakash,Power BI Developer,3.6,"power query,tableau,python,power bi,sql",Pune,60,user192@mail.com
+Meera Patel,Power BI Developer,6.8,"sql,power bi,azure",Hyderabad,60,user193@mail.com
+Arun Raman,Business Analyst,3.4,"python,excel,tableau,power query,dax",Bangalore,15,user194@mail.com
+Asha Prakash,Power BI Developer,2.0,"power query,excel,power bi,azure,dax",Chennai,30,user195@mail.com
+Vikram Nair,Data Analyst,6.3,"tableau,sql,azure,power bi,dax,python",Chennai,60,user196@mail.com
+Kiran Prakash,Power BI Developer,1.6,"python,dax,tableau,sql,azure,power bi",Pune,15,user197@mail.com
+Arun Patel,Business Analyst,6.6,"power query,azure,power bi,python",Pune,15,user198@mail.com
+Vikram Prakash,Power BI Developer,7.3,"tableau,dax,power bi,python,azure",Mumbai,90,user199@mail.com
+Rohit Reddy,BI Analyst,1.3,"dax,python,azure,excel,power bi",Bangalore,15,user200@mail.com
+Sneha Reddy,Data Analyst,7.5,"tableau,dax,azure,sql",Chennai,15,user201@mail.com
+Asha Nair,BI Analyst,4.8,"power query,power bi,sql,azure",Bangalore,15,user202@mail.com
+Rohit Kumar,Data Analyst,3.8,"power bi,power query,python,sql,excel",Mumbai,30,user203@mail.com
+Priya Patel,Business Analyst,7.6,"excel,power bi,dax,azure",Chennai,60,user204@mail.com
+Asha Kumar,BI Analyst,4.1,"dax,azure,power bi",Bangalore,30,user205@mail.com
+Anita Raman,Business Analyst,4.3,"tableau,power query,excel",Mumbai,90,user206@mail.com
+Anita Prakash,Power BI Developer,3.8,"tableau,excel,power bi",Chennai,60,user207@mail.com
+Anita Nair,Business Analyst,5.9,"sql,excel,python,power bi",Bangalore,45,user208@mail.com
+Arun Shah,Reporting Analyst,2.2,"power query,python,excel,sql",Chennai,45,user209@mail.com
+Sneha Prakash,BI Analyst,3.4,"azure,dax,power bi,power query",Pune,45,user210@mail.com
+Meera Nair,BI Analyst,3.0,"excel,dax,sql,azure,power bi,tableau",Hyderabad,90,user211@mail.com
+Priya Reddy,BI Analyst,4.3,"power bi,dax,sql,power query,azure,tableau",Bangalore,90,user212@mail.com
+Priya Iyer,Business Analyst,5.1,"sql,excel,power query",Hyderabad,30,user213@mail.com
+Rahul Reddy,Reporting Analyst,2.3,"tableau,sql,power bi,excel,dax",Hyderabad,90,user214@mail.com
+Arun Raman,Power BI Developer,2.9,"python,power query,azure,tableau,sql",Hyderabad,90,user215@mail.com
+Asha Iyer,BI Analyst,7.5,"tableau,power bi,power query,excel,dax,sql",Hyderabad,90,user216@mail.com
+Kiran Nair,Business Analyst,1.3,"sql,dax,python,power query,azure,tableau",Bangalore,90,user217@mail.com
+Priya Patel,Business Analyst,2.5,"excel,azure,dax,tableau",Pune,45,user218@mail.com
+Rohit Prakash,Data Analyst,2.4,"sql,power bi,dax",Bangalore,45,user219@mail.com
+Kiran Patel,Data Analyst,4.0,"python,excel,tableau,power query,azure",Mumbai,45,user220@mail.com
+Rohit Raman,BI Analyst,7.7,"python,power query,tableau,sql,excel",Pune,45,user221@mail.com
+Rahul Nair,BI Analyst,1.7,"dax,power bi,excel,tableau",Bangalore,60,user222@mail.com
+Anita Patel,Power BI Developer,4.4,"power query,sql,azure,excel,tableau",Mumbai,15,user223@mail.com
+Arun Kumar,Data Analyst,7.5,"python,tableau,sql,azure,excel",Mumbai,45,user224@mail.com
+Asha Nair,Business Analyst,5.1,"dax,tableau,power query",Chennai,90,user225@mail.com
+Sneha Raman,Data Analyst,1.2,"power query,power bi,excel,python",Mumbai,90,user226@mail.com
+Sneha Reddy,Data Analyst,3.5,"azure,dax,power bi",Chennai,90,user227@mail.com
+Kiran Iyer,BI Analyst,7.5,"python,sql,power bi",Bangalore,15,user228@mail.com
+Priya Shah,BI Analyst,4.2,"power bi,sql,azure,python,tableau",Hyderabad,30,user229@mail.com
+Asha Prakash,Reporting Analyst,7.8,"azure,power query,python",Mumbai,90,user230@mail.com
+Meera Reddy,BI Analyst,1.6,"azure,excel,sql",Bangalore,30,user231@mail.com
+Rahul Patel,Data Analyst,1.6,"python,dax,excel,azure",Mumbai,60,user232@mail.com
+Sneha Reddy,Data Analyst,7.8,"tableau,azure,power bi,python,excel,power query",Pune,45,user233@mail.com
+Meera Iyer,BI Analyst,2.6,"power query,python,dax,tableau,sql,excel",Hyderabad,30,user234@mail.com
+Rohit Shah,Data Analyst,2.3,"azure,excel,power query",Bangalore,45,user235@mail.com
+Rahul Raman,BI Analyst,3.9,"sql,power bi,power query,excel,tableau,python",Pune,90,user236@mail.com
+Sneha Prakash,Business Analyst,3.5,"excel,sql,python,dax",Chennai,45,user237@mail.com
+Priya Reddy,Reporting Analyst,6.2,"sql,power bi,tableau,python,azure,power query",Mumbai,60,user238@mail.com
+Priya Raman,Reporting Analyst,2.4,"tableau,power bi,power query",Chennai,60,user239@mail.com
+Arun Prakash,Business Analyst,4.0,"power query,tableau,python,sql,excel",Hyderabad,90,user240@mail.com
+Sneha Patel,BI Analyst,3.5,"azure,python,power bi,sql,power query,dax",Pune,45,user241@mail.com
+Rahul Raman,Data Analyst,7.0,"dax,power bi,power query,excel,tableau",Chennai,30,user242@mail.com
+Kiran Raman,Power BI Developer,3.1,"azure,sql,tableau",Mumbai,30,user243@mail.com
+Rahul Patel,Data Analyst,2.7,"power query,power bi,excel,azure",Chennai,30,user244@mail.com
+Sneha Kumar,Business Analyst,7.4,"power bi,tableau,dax,python",Hyderabad,60,user245@mail.com
+Asha Prakash,Data Analyst,2.1,"power bi,python,power query,excel,azure",Pune,45,user246@mail.com
+Rohit Shah,Reporting Analyst,7.1,"power query,tableau,python,power bi,azure,excel",Hyderabad,45,user247@mail.com
+Anita Nair,Power BI Developer,6.7,"excel,power query,sql,python,power bi,azure",Bangalore,45,user248@mail.com
+Asha Reddy,Data Analyst,3.2,"power query,sql,dax,tableau,azure",Hyderabad,90,user249@mail.com
+Arun Iyer,Reporting Analyst,6.1,"excel,power bi,sql,tableau,python,power query",Bangalore,45,user250@mail.com
+Priya Nair,Reporting Analyst,4.2,"power query,python,azure",Hyderabad,15,user251@mail.com
+Priya Kumar,Business Analyst,4.4,"power query,tableau,azure,python",Mumbai,15,user252@mail.com
+Rohit Iyer,Reporting Analyst,3.5,"dax,azure,tableau,excel,power query,power bi",Mumbai,90,user253@mail.com
+Rahul Kumar,Reporting Analyst,7.0,"python,power query,sql",Mumbai,90,user254@mail.com
+Asha Iyer,Data Analyst,3.6,"dax,sql,power bi",Hyderabad,90,user255@mail.com
+Rohit Reddy,Data Analyst,2.0,"power bi,tableau,dax,azure",Bangalore,45,user256@mail.com
+Vikram Raman,Power BI Developer,6.5,"power bi,sql,dax,power query,python",Bangalore,45,user257@mail.com
+Vikram Patel,BI Analyst,6.1,"sql,power bi,python,excel,tableau",Pune,45,user258@mail.com
+Rahul Kumar,Power BI Developer,3.6,"python,dax,tableau",Chennai,45,user259@mail.com
+Priya Prakash,Data Analyst,7.0,"excel,power bi,tableau",Pune,15,user260@mail.com
+Sneha Patel,BI Analyst,1.3,"dax,power query,sql,tableau",Chennai,15,user261@mail.com
+Asha Nair,Data Analyst,5.2,"tableau,excel,sql,power query,dax",Bangalore,30,user262@mail.com
+Vikram Shah,Power BI Developer,3.4,"tableau,excel,power bi,dax,power query,sql",Bangalore,15,user263@mail.com
+Rohit Nair,Power BI Developer,5.4,"tableau,python,dax",Chennai,60,user264@mail.com
+Arun Patel,Business Analyst,1.1,"dax,python,azure,sql,tableau,excel",Hyderabad,60,user265@mail.com
+Rohit Reddy,BI Analyst,7.2,"excel,dax,sql",Hyderabad,45,user266@mail.com
+Vikram Iyer,Data Analyst,4.3,"python,power bi,excel",Mumbai,60,user267@mail.com
+Sneha Kumar,Power BI Developer,6.3,"tableau,excel,power bi,power query",Hyderabad,45,user268@mail.com
+Rahul Shah,Power BI Developer,5.7,"azure,power bi,dax,python,power query",Chennai,15,user269@mail.com
+Anita Patel,Business Analyst,4.6,"dax,tableau,python,azure",Hyderabad,15,user270@mail.com
+Rahul Nair,Business Analyst,6.0,"power bi,power query,azure,tableau,python",Bangalore,30,user271@mail.com
+Arun Nair,Data Analyst,1.1,"power query,python,excel",Pune,15,user272@mail.com
+Rohit Prakash,BI Analyst,6.2,"python,sql,power bi,power query,tableau,excel",Mumbai,90,user273@mail.com
+Kiran Reddy,BI Analyst,2.4,"dax,python,power bi,excel,tableau,azure",Bangalore,30,user274@mail.com
+Anita Patel,Data Analyst,4.3,"azure,sql,power query,power bi,dax",Chennai,30,user275@mail.com
+Sneha Raman,Reporting Analyst,7.9,"excel,python,dax,sql,power query,tableau",Pune,15,user276@mail.com
+Anita Iyer,Business Analyst,2.3,"excel,azure,sql,dax,power bi",Hyderabad,15,user277@mail.com
+Kiran Iyer,Data Analyst,3.4,"sql,python,power bi,power query",Pune,60,user278@mail.com
+Priya Shah,Power BI Developer,3.3,"dax,azure,excel,tableau,power query,sql",Pune,60,user279@mail.com
+Meera Iyer,Power BI Developer,5.1,"power bi,python,dax,power query,excel",Hyderabad,30,user280@mail.com
+Anita Shah,BI Analyst,1.0,"python,azure,sql,tableau,power bi,power query",Mumbai,45,user281@mail.com
+Rahul Kumar,BI Analyst,3.1,"azure,python,sql,dax,power bi,power query",Mumbai,30,user282@mail.com
+Sneha Patel,Data Analyst,7.6,"python,dax,sql,azure",Pune,30,user283@mail.com
+Sneha Patel,Data Analyst,7.2,"power bi,sql,azure,dax,power query",Mumbai,90,user284@mail.com
+Anita Patel,Power BI Developer,1.6,"power query,python,azure,sql,power bi",Pune,60,user285@mail.com
+Rohit Raman,Reporting Analyst,5.9,"power bi,python,tableau",Mumbai,15,user286@mail.com
+Priya Reddy,Business Analyst,6.6,"excel,power query,python,dax,power bi",Bangalore,15,user287@mail.com
+Rahul Patel,BI Analyst,7.9,"tableau,azure,dax",Hyderabad,45,user288@mail.com
+Priya Prakash,Power BI Developer,4.2,"power bi,azure,sql",Chennai,90,user289@mail.com
+Meera Iyer,Reporting Analyst,5.1,"tableau,python,power bi,dax",Mumbai,60,user290@mail.com
+Arun Iyer,Data Analyst,5.0,"power bi,power query,azure,python,tableau",Bangalore,90,user291@mail.com
+Priya Nair,Business Analyst,4.6,"tableau,excel,sql,power bi,python,power query",Mumbai,30,user292@mail.com
+Asha Prakash,Data Analyst,3.4,"excel,sql,azure,power query",Hyderabad,90,user293@mail.com
+Vikram Reddy,Business Analyst,4.1,"power bi,power query,python,dax,excel,tableau",Chennai,15,user294@mail.com
+Rohit Prakash,BI Analyst,5.4,"power bi,tableau,sql,azure,dax",Hyderabad,60,user295@mail.com
+Sneha Nair,Reporting Analyst,6.3,"power bi,power query,sql,python",Chennai,90,user296@mail.com
+Kiran Patel,Reporting Analyst,5.1,"azure,power query,sql",Chennai,30,user297@mail.com
+Asha Iyer,Power BI Developer,3.9,"python,dax,tableau,azure,sql,excel",Pune,90,user298@mail.com
+Rahul Prakash,Data Analyst,6.8,"excel,power query,dax",Hyderabad,90,user299@mail.com
+Arun Reddy,BI Analyst,3.3,"power bi,azure,power query,dax,sql,tableau",Chennai,30,user300@mail.com
+Meera Kumar,Power BI Developer,7.1,"power query,azure,excel,power bi,sql",Mumbai,30,user301@mail.com
+Vikram Shah,Data Analyst,2.6,"python,azure,power bi,excel,dax",Chennai,60,user302@mail.com
+Kiran Reddy,Reporting Analyst,4.1,"tableau,dax,azure,power bi,python",Chennai,90,user303@mail.com
+Vikram Shah,Power BI Developer,1.8,"azure,power bi,excel,dax,sql,python",Pune,90,user304@mail.com
+Sneha Kumar,Data Analyst,1.4,"dax,excel,power query,power bi,sql",Mumbai,15,user305@mail.com
+Arun Shah,Data Analyst,3.6,"python,sql,power query,power bi,excel",Pune,30,user306@mail.com
+Meera Reddy,Data Analyst,1.8,"tableau,power bi,python",Bangalore,60,user307@mail.com
+Meera Shah,BI Analyst,2.7,"sql,power query,azure",Mumbai,90,user308@mail.com
+Rahul Patel,Business Analyst,2.0,"power bi,power query,azure,dax",Mumbai,30,user309@mail.com
+Sneha Nair,Business Analyst,6.0,"dax,power query,sql",Pune,90,user310@mail.com
+Rahul Prakash,Power BI Developer,2.8,"python,azure,excel,power query,sql",Pune,30,user311@mail.com
+Kiran Iyer,Data Analyst,6.5,"power query,dax,azure",Pune,15,user312@mail.com
+Rohit Iyer,Reporting Analyst,4.1,"azure,dax,power bi,power query",Mumbai,30,user313@mail.com
+Meera Shah,Reporting Analyst,6.0,"power bi,tableau,excel",Bangalore,30,user314@mail.com
+Priya Reddy,Data Analyst,7.7,"azure,dax,tableau,sql",Mumbai,90,user315@mail.com
+Rohit Shah,Reporting Analyst,6.7,"dax,python,power bi,sql",Bangalore,60,user316@mail.com
+Kiran Raman,BI Analyst,4.5,"tableau,azure,sql,python,power bi",Mumbai,45,user317@mail.com
+Asha Nair,Data Analyst,2.5,"python,tableau,excel,power bi,dax,azure",Chennai,90,user318@mail.com
+Rohit Patel,Business Analyst,3.9,"dax,python,sql,power bi,tableau",Hyderabad,45,user319@mail.com
+Kiran Reddy,BI Analyst,8.0,"dax,sql,power bi,azure",Hyderabad,15,user320@mail.com
+Vikram Prakash,Data Analyst,4.1,"power bi,sql,power query",Mumbai,45,user321@mail.com
+Meera Reddy,Data Analyst,1.3,"azure,sql,tableau,dax",Mumbai,45,user322@mail.com
+Anita Prakash,Power BI Developer,2.3,"excel,dax,power query,sql",Hyderabad,90,user323@mail.com
+Vikram Reddy,Business Analyst,6.7,"azure,sql,power bi",Pune,15,user324@mail.com
+Asha Nair,Reporting Analyst,3.8,"dax,python,azure,sql,excel",Hyderabad,45,user325@mail.com
+Meera Kumar,BI Analyst,7.7,"power query,power bi,python,azure,dax",Mumbai,90,user326@mail.com
+Arun Patel,Data Analyst,6.2,"dax,python,sql,power bi,azure",Chennai,45,user327@mail.com
+Sneha Shah,Business Analyst,6.9,"power bi,azure,power query,python",Mumbai,90,user328@mail.com
+Sneha Prakash,Data Analyst,4.7,"power bi,excel,power query,dax,python",Pune,15,user329@mail.com
+Rahul Prakash,Business Analyst,3.6,"power query,sql,python,excel,dax",Hyderabad,90,user330@mail.com
+Meera Shah,Reporting Analyst,7.5,"power query,excel,python,power bi,tableau,dax",Chennai,90,user331@mail.com
+Vikram Nair,Power BI Developer,1.4,"dax,python,tableau,power query,azure",Hyderabad,90,user332@mail.com
+Kiran Raman,Reporting Analyst,2.2,"power query,python,tableau,excel,azure",Mumbai,15,user333@mail.com
+Asha Nair,BI Analyst,6.3,"sql,power bi,excel",Chennai,30,user334@mail.com
+Rohit Reddy,Power BI Developer,3.1,"dax,power bi,excel",Hyderabad,90,user335@mail.com
+Rohit Patel,Business Analyst,4.3,"excel,azure,sql",Bangalore,30,user336@mail.com
+Priya Shah,BI Analyst,3.6,"power bi,excel,python,sql,dax,azure",Mumbai,45,user337@mail.com
+Meera Shah,BI Analyst,6.0,"power bi,azure,power query,python,dax",Pune,15,user338@mail.com
+Rahul Raman,Business Analyst,5.8,"power query,python,dax,tableau,azure,power bi",Mumbai,90,user339@mail.com
+Rahul Patel,Data Analyst,1.5,"power query,power bi,tableau,azure",Chennai,15,user340@mail.com
+Meera Raman,BI Analyst,1.3,"python,azure,sql",Hyderabad,60,user341@mail.com
+Meera Patel,Data Analyst,4.8,"azure,python,dax",Pune,45,user342@mail.com
+Rahul Nair,Data Analyst,2.8,"sql,tableau,power query,azure,python,excel",Chennai,15,user343@mail.com
+Vikram Nair,Data Analyst,3.0,"dax,tableau,excel",Bangalore,90,user344@mail.com
+Kiran Raman,Data Analyst,5.3,"tableau,azure,excel,power bi",Hyderabad,30,user345@mail.com
+Meera Raman,BI Analyst,7.5,"power query,tableau,excel,python",Pune,15,user346@mail.com
+Rahul Prakash,Business Analyst,2.1,"power bi,dax,power query,azure",Pune,15,user347@mail.com
+Rahul Patel,Data Analyst,3.0,"excel,power bi,sql,dax",Mumbai,90,user348@mail.com
+Kiran Patel,Reporting Analyst,6.3,"tableau,python,power bi,excel,sql",Bangalore,90,user349@mail.com
+Asha Raman,Reporting Analyst,7.3,"python,dax,excel,sql",Chennai,90,user350@mail.com
+Priya Reddy,Data Analyst,1.2,"azure,tableau,dax,python,power query,excel",Pune,45,user351@mail.com
+Vikram Raman,Data Analyst,7.9,"power bi,excel,azure,tableau",Pune,90,user352@mail.com
+Rahul Prakash,Business Analyst,4.1,"sql,azure,python,power bi",Chennai,60,user353@mail.com
+Sneha Reddy,Reporting Analyst,4.4,"sql,excel,tableau,dax",Mumbai,60,user354@mail.com
+Anita Kumar,Power BI Developer,6.8,"sql,power bi,power query,python,tableau,azure",Hyderabad,60,user355@mail.com
+Sneha Reddy,BI Analyst,1.2,"sql,excel,power bi,tableau,python",Hyderabad,45,user356@mail.com
+Rohit Raman,Reporting Analyst,2.5,"power query,dax,azure,sql,excel,python",Hyderabad,60,user357@mail.com
+Asha Shah,Reporting Analyst,6.8,"power bi,tableau,sql,azure",Mumbai,15,user358@mail.com
+Kiran Iyer,Business Analyst,1.8,"excel,python,dax,power bi,power query",Chennai,15,user359@mail.com
+Rahul Prakash,Business Analyst,3.0,"dax,azure,power query,python,sql",Bangalore,60,user360@mail.com
+Anita Raman,Data Analyst,1.1,"excel,power query,python",Mumbai,90,user361@mail.com
+Meera Reddy,Power BI Developer,3.5,"sql,power query,excel,python,power bi",Chennai,45,user362@mail.com
+Rohit Prakash,Reporting Analyst,5.1,"excel,power query,power bi",Mumbai,60,user363@mail.com
+Arun Prakash,Data Analyst,4.9,"azure,dax,sql,power query",Chennai,15,user364@mail.com
+Priya Reddy,Reporting Analyst,6.5,"sql,power query,azure,dax,tableau",Mumbai,60,user365@mail.com
+Meera Patel,BI Analyst,4.6,"dax,sql,power bi,excel",Hyderabad,15,user366@mail.com
+Asha Kumar,Data Analyst,8.0,"python,dax,sql",Mumbai,30,user367@mail.com
+Sneha Reddy,BI Analyst,4.7,"tableau,power bi,azure,sql,python",Pune,45,user368@mail.com
+Asha Shah,BI Analyst,4.7,"power query,power bi,python,tableau,azure,excel",Bangalore,15,user369@mail.com
+Rahul Kumar,BI Analyst,7.4,"azure,excel,python,power bi,power query",Bangalore,45,user370@mail.com
+Kiran Shah,Reporting Analyst,4.6,"python,excel,power bi,tableau,azure,power query",Hyderabad,30,user371@mail.com
+Arun Raman,BI Analyst,4.6,"dax,excel,azure",Hyderabad,45,user372@mail.com
+Meera Iyer,Reporting Analyst,2.4,"sql,tableau,python,excel,azure,power bi",Hyderabad,15,user373@mail.com
+Anita Raman,BI Analyst,5.3,"dax,excel,sql,python,azure",Bangalore,30,user374@mail.com
+Priya Raman,Reporting Analyst,7.5,"sql,power query,python,excel",Bangalore,60,user375@mail.com
+Asha Nair,Data Analyst,1.7,"excel,power query,azure,sql,power bi",Bangalore,60,user376@mail.com
+Meera Patel,Reporting Analyst,5.9,"azure,excel,python,sql,tableau,power query",Chennai,45,user377@mail.com
+Kiran Patel,Reporting Analyst,4.6,"azure,power query,excel",Mumbai,45,user378@mail.com
+Asha Nair,Business Analyst,6.0,"excel,power bi,python,dax,power query,azure",Chennai,60,user379@mail.com
+Arun Raman,BI Analyst,6.8,"power query,excel,tableau,sql",Chennai,60,user380@mail.com
+Asha Iyer,Reporting Analyst,5.9,"dax,power bi,excel,python",Pune,60,user381@mail.com
+Kiran Shah,Reporting Analyst,5.2,"azure,power bi,sql,dax,python,tableau",Bangalore,90,user382@mail.com
+Kiran Kumar,Business Analyst,4.4,"tableau,dax,power query",Chennai,15,user383@mail.com
+Anita Nair,Business Analyst,3.4,"power bi,dax,python,sql",Pune,60,user384@mail.com
+Vikram Iyer,Data Analyst,6.4,"power bi,azure,tableau",Hyderabad,15,user385@mail.com
+Rahul Shah,Reporting Analyst,4.5,"power bi,python,dax,excel,power query,tableau",Mumbai,15,user386@mail.com
+Rohit Raman,Data Analyst,6.2,"python,dax,sql",Bangalore,30,user387@mail.com
+Anita Prakash,Data Analyst,3.4,"azure,power query,tableau,sql,dax",Pune,90,user388@mail.com
+Anita Shah,BI Analyst,7.7,"excel,dax,azure",Chennai,45,user389@mail.com
+Arun Shah,Business Analyst,1.2,"python,tableau,excel",Bangalore,15,user390@mail.com
+Arun Iyer,Data Analyst,6.8,"power query,excel,azure,power bi",Hyderabad,15,user391@mail.com
+Rohit Nair,Reporting Analyst,7.1,"python,excel,tableau,dax,sql",Hyderabad,60,user392@mail.com
+Arun Reddy,Data Analyst,2.3,"dax,azure,power query,python,power bi",Chennai,15,user393@mail.com
+Kiran Reddy,Reporting Analyst,4.4,"azure,dax,power query,python",Bangalore,60,user394@mail.com
+Rohit Kumar,Data Analyst,4.4,"excel,azure,tableau,python",Chennai,60,user395@mail.com
+Anita Shah,BI Analyst,4.3,"excel,azure,sql,dax,tableau",Bangalore,45,user396@mail.com
+Arun Iyer,Data Analyst,6.4,"tableau,excel,power bi,sql,power query,azure",Bangalore,15,user397@mail.com
+Vikram Nair,Data Analyst,5.3,"power query,python,excel,azure,dax",Chennai,90,user398@mail.com
+Arun Kumar,BI Analyst,6.5,"power bi,excel,tableau,azure",Chennai,45,user399@mail.com
+Kiran Kumar,Data Analyst,1.6,"dax,power query,python",Chennai,30,user400@mail.com
+Meera Nair,Data Analyst,5.1,"tableau,dax,python,sql,excel,power query",Hyderabad,90,user401@mail.com
+Priya Reddy,Business Analyst,1.6,"dax,python,power query,sql,azure",Bangalore,30,user402@mail.com
+Rahul Kumar,BI Analyst,3.4,"python,power query,azure,sql",Pune,60,user403@mail.com
+Arun Raman,Power BI Developer,3.1,"power bi,dax,excel,azure,sql",Hyderabad,30,user404@mail.com
+Asha Nair,Reporting Analyst,2.3,"excel,tableau,python,power query,power bi,sql",Mumbai,30,user405@mail.com
+Kiran Raman,Data Analyst,7.5,"azure,power bi,python,dax,excel",Chennai,90,user406@mail.com
+Vikram Nair,BI Analyst,6.4,"azure,tableau,power query,power bi,dax",Chennai,60,user407@mail.com
+Sneha Patel,Data Analyst,6.5,"sql,azure,excel,dax,tableau,power bi",Bangalore,60,user408@mail.com
+Kiran Prakash,BI Analyst,2.2,"power query,excel,tableau,azure,python",Bangalore,60,user409@mail.com
+Rohit Shah,BI Analyst,3.3,"sql,excel,azure,python,power query",Chennai,60,user410@mail.com
+Rahul Nair,Data Analyst,2.0,"power bi,excel,sql,tableau,power query,dax",Mumbai,45,user411@mail.com
+Asha Patel,Power BI Developer,5.7,"power bi,dax,python,excel,azure,sql",Hyderabad,15,user412@mail.com
+Vikram Nair,Business Analyst,7.8,"sql,power bi,excel,python,power query",Hyderabad,90,user413@mail.com
+Priya Nair,Reporting Analyst,1.7,"excel,tableau,dax,power bi",Chennai,30,user414@mail.com
+Anita Reddy,Reporting Analyst,4.4,"power query,tableau,dax,sql,power bi,excel",Pune,45,user415@mail.com
+Sneha Shah,BI Analyst,3.8,"power query,python,dax,power bi",Pune,45,user416@mail.com
+Sneha Reddy,Data Analyst,2.4,"sql,azure,power bi,power query",Pune,60,user417@mail.com
+Anita Kumar,Power BI Developer,1.3,"sql,dax,tableau,azure",Chennai,15,user418@mail.com
+Kiran Iyer,BI Analyst,5.8,"azure,tableau,power bi",Mumbai,90,user419@mail.com
+Meera Reddy,Reporting Analyst,4.2,"azure,power bi,python,excel,power query,sql",Chennai,60,user420@mail.com
+Meera Raman,Data Analyst,5.1,"python,excel,sql,power query",Bangalore,30,user421@mail.com
+Priya Patel,Power BI Developer,7.5,"tableau,azure,power query,power bi",Chennai,60,user422@mail.com
+Vikram Shah,Power BI Developer,5.7,"python,power query,power bi,tableau,dax,sql",Mumbai,15,user423@mail.com
+Rohit Prakash,Reporting Analyst,3.0,"sql,power query,azure,tableau,dax",Mumbai,15,user424@mail.com
+Vikram Shah,Business Analyst,4.0,"azure,dax,python",Pune,90,user425@mail.com
+Asha Raman,Data Analyst,6.7,"power bi,python,azure,sql,excel,tableau",Pune,45,user426@mail.com
+Sneha Shah,Reporting Analyst,4.5,"dax,azure,power query,python,sql,tableau",Pune,30,user427@mail.com
+Vikram Reddy,BI Analyst,5.6,"tableau,dax,sql,python,azure,power bi",Mumbai,60,user428@mail.com
+Rohit Prakash,Business Analyst,7.0,"azure,tableau,power bi,dax",Hyderabad,30,user429@mail.com
+Meera Kumar,Data Analyst,1.8,"power bi,dax,python",Mumbai,60,user430@mail.com
+Rahul Reddy,BI Analyst,7.7,"excel,azure,sql,dax,python,power bi",Mumbai,30,user431@mail.com
+Sneha Shah,Data Analyst,3.1,"sql,power query,tableau",Chennai,30,user432@mail.com
+Meera Raman,Reporting Analyst,7.6,"power query,sql,azure,dax,tableau,excel",Bangalore,45,user433@mail.com
+Anita Kumar,Business Analyst,3.4,"python,power bi,azure",Chennai,60,user434@mail.com
+Anita Prakash,Reporting Analyst,4.1,"tableau,dax,power query,excel,azure,power bi",Hyderabad,30,user435@mail.com
+Vikram Reddy,Power BI Developer,4.8,"sql,power query,excel",Bangalore,90,user436@mail.com
+Rahul Iyer,Reporting Analyst,7.0,"azure,dax,sql,excel",Mumbai,30,user437@mail.com
+Vikram Prakash,Reporting Analyst,2.1,"excel,azure,tableau",Hyderabad,60,user438@mail.com
+Rohit Prakash,Reporting Analyst,2.5,"python,power bi,sql,excel",Hyderabad,90,user439@mail.com
+Vikram Nair,Data Analyst,4.2,"power query,excel,tableau,sql,azure",Hyderabad,15,user440@mail.com
+Asha Kumar,BI Analyst,4.3,"sql,azure,dax,power query,power bi,python",Mumbai,30,user441@mail.com
+Vikram Shah,Business Analyst,1.7,"excel,dax,power query,sql,power bi",Pune,60,user442@mail.com
+Kiran Raman,Reporting Analyst,1.6,"power query,excel,tableau",Mumbai,15,user443@mail.com
+Kiran Iyer,Reporting Analyst,3.6,"azure,sql,power bi,power query,dax,excel",Hyderabad,15,user444@mail.com
+Meera Prakash,Business Analyst,6.9,"azure,dax,python,sql",Pune,60,user445@mail.com
+Arun Reddy,Data Analyst,1.7,"azure,excel,tableau,sql,python",Mumbai,60,user446@mail.com
+Asha Shah,Data Analyst,5.8,"power bi,excel,tableau",Mumbai,90,user447@mail.com
+Asha Kumar,Business Analyst,3.0,"sql,power bi,azure,tableau,power query",Mumbai,60,user448@mail.com
+Vikram Nair,BI Analyst,1.1,"tableau,power query,python",Bangalore,45,user449@mail.com
+Rahul Nair,Power BI Developer,1.8,"power bi,tableau,sql,excel,dax",Hyderabad,90,user450@mail.com
+Arun Patel,Reporting Analyst,4.1,"python,azure,power bi",Mumbai,90,user451@mail.com
+Kiran Iyer,BI Analyst,1.1,"dax,excel,azure",Hyderabad,45,user452@mail.com
+Anita Shah,Data Analyst,3.3,"azure,tableau,excel,dax,sql",Pune,30,user453@mail.com
+Priya Kumar,BI Analyst,2.6,"python,power query,dax,power bi,azure,tableau",Bangalore,45,user454@mail.com
+Rahul Raman,Reporting Analyst,2.8,"tableau,power query,azure,power bi,sql",Chennai,60,user455@mail.com
+Priya Prakash,Data Analyst,5.0,"dax,power bi,sql,tableau",Hyderabad,90,user456@mail.com
+Rohit Reddy,Reporting Analyst,5.3,"power query,sql,python,azure,dax,excel",Mumbai,60,user457@mail.com
+Sneha Kumar,Data Analyst,1.4,"tableau,dax,power query,power bi,azure",Chennai,45,user458@mail.com
+Asha Shah,Business Analyst,7.9,"power query,excel,sql,power bi",Chennai,30,user459@mail.com
+Vikram Patel,Reporting Analyst,3.7,"excel,tableau,python,azure,sql",Hyderabad,90,user460@mail.com
+Arun Kumar,Data Analyst,1.5,"azure,excel,sql,python,power bi",Pune,45,user461@mail.com
+Kiran Prakash,BI Analyst,1.6,"azure,sql,dax,power query,python,excel",Bangalore,60,user462@mail.com
+Anita Patel,BI Analyst,2.8,"power query,sql,excel,tableau",Bangalore,60,user463@mail.com
+Vikram Raman,Reporting Analyst,7.7,"dax,excel,power bi,power query",Pune,60,user464@mail.com
+Asha Prakash,Power BI Developer,3.5,"power query,azure,sql",Hyderabad,60,user465@mail.com
+Rahul Iyer,Power BI Developer,2.4,"dax,sql,python,azure,power query",Pune,30,user466@mail.com
+Asha Reddy,Data Analyst,5.2,"python,power bi,tableau,sql,azure,excel",Bangalore,45,user467@mail.com
+Sneha Iyer,Business Analyst,3.0,"dax,azure,excel,sql",Mumbai,30,user468@mail.com
+Meera Iyer,BI Analyst,6.4,"python,excel,dax,tableau,sql,azure",Mumbai,15,user469@mail.com
+Meera Nair,Power BI Developer,5.8,"dax,azure,tableau",Mumbai,45,user470@mail.com
+Arun Shah,BI Analyst,2.4,"power bi,python,tableau,dax",Mumbai,15,user471@mail.com
+Meera Kumar,Business Analyst,2.4,"python,azure,dax,excel,power bi,power query",Pune,30,user472@mail.com
+Arun Prakash,Reporting Analyst,2.7,"power bi,power query,excel",Bangalore,60,user473@mail.com
+Kiran Prakash,BI Analyst,5.7,"power query,excel,power bi,dax,python",Chennai,90,user474@mail.com
+Sneha Patel,Reporting Analyst,3.1,"excel,python,sql,dax,power query,tableau",Pune,30,user475@mail.com
+Kiran Iyer,Reporting Analyst,3.0,"azure,sql,dax,power query",Chennai,90,user476@mail.com
+Arun Reddy,Power BI Developer,8.0,"azure,sql,power bi,python",Pune,15,user477@mail.com
+Anita Prakash,BI Analyst,7.0,"power query,power bi,python",Hyderabad,30,user478@mail.com
+Priya Patel,Reporting Analyst,6.9,"dax,tableau,python,azure,sql,excel",Chennai,90,user479@mail.com
+Rohit Shah,Data Analyst,2.3,"azure,excel,dax",Pune,30,user480@mail.com
+Asha Shah,BI Analyst,5.6,"excel,python,tableau,power bi,dax,power query",Mumbai,15,user481@mail.com
+Sneha Nair,BI Analyst,4.2,"tableau,azure,dax",Bangalore,90,user482@mail.com
+Anita Patel,Power BI Developer,2.5,"power bi,python,azure,excel",Pune,90,user483@mail.com
+Anita Iyer,Business Analyst,6.1,"tableau,dax,power bi,excel,sql",Mumbai,60,user484@mail.com
+Vikram Iyer,Power BI Developer,5.6,"power bi,sql,power query,azure",Chennai,15,user485@mail.com
+Rohit Prakash,BI Analyst,2.3,"power query,excel,power bi,sql,python",Hyderabad,45,user486@mail.com
+Priya Patel,Data Analyst,2.4,"power query,excel,tableau,dax,power bi",Pune,90,user487@mail.com
+Meera Raman,BI Analyst,1.6,"tableau,power bi,sql,python,dax",Bangalore,60,user488@mail.com
+Rohit Reddy,Power BI Developer,5.1,"power bi,power query,azure,excel,python",Chennai,45,user489@mail.com
+Anita Patel,Data Analyst,4.9,"python,power bi,excel,power query,tableau,dax",Chennai,15,user490@mail.com
+Arun Reddy,Data Analyst,4.3,"power bi,azure,dax,power query",Hyderabad,15,user491@mail.com
+Sneha Shah,Business Analyst,1.1,"power query,azure,excel,sql",Mumbai,15,user492@mail.com
+Rahul Nair,BI Analyst,1.4,"power query,sql,tableau",Mumbai,90,user493@mail.com
+Anita Patel,Business Analyst,4.8,"sql,tableau,azure,power query,python",Bangalore,90,user494@mail.com
+Rahul Patel,Data Analyst,7.0,"tableau,python,excel,power query,sql",Bangalore,60,user495@mail.com
+Rahul Prakash,BI Analyst,7.9,"tableau,sql,power bi,power query,python",Hyderabad,90,user496@mail.com
+Priya Iyer,Business Analyst,6.8,"python,power query,azure",Mumbai,30,user497@mail.com
+Sneha Reddy,Reporting Analyst,3.5,"azure,power query,power bi",Chennai,30,user498@mail.com
+Meera Patel,Reporting Analyst,6.6,"power bi,dax,excel",Hyderabad,60,user499@mail.com
+Priya Reddy,Reporting Analyst,4.3,"python,sql,excel,tableau,azure",Bangalore,30,user500@mail.com
+Meera Kumar,Business Analyst,7.4,"azure,power bi,tableau",Chennai,45,user501@mail.com
+Rohit Kumar,Reporting Analyst,2.9,"power query,excel,dax,tableau,python",Bangalore,15,user502@mail.com
+Asha Kumar,Power BI Developer,2.5,"azure,power bi,tableau,sql,dax",Pune,90,user503@mail.com
+Vikram Reddy,Power BI Developer,2.7,"python,tableau,dax,power query",Pune,90,user504@mail.com
+Anita Kumar,Business Analyst,8.0,"python,power query,azure,tableau",Mumbai,90,user505@mail.com
+Meera Reddy,BI Analyst,8.0,"azure,power query,power bi,excel,tableau,python",Hyderabad,60,user506@mail.com
+Sneha Shah,Reporting Analyst,2.9,"excel,tableau,power query",Hyderabad,60,user507@mail.com
+Vikram Patel,Power BI Developer,3.7,"dax,azure,sql,power bi,python",Bangalore,45,user508@mail.com
+Kiran Kumar,Reporting Analyst,6.8,"azure,power bi,sql",Mumbai,60,user509@mail.com
+Rohit Nair,Business Analyst,7.6,"dax,tableau,azure,power query",Chennai,90,user510@mail.com
+Kiran Reddy,BI Analyst,4.2,"dax,sql,azure,python",Mumbai,30,user511@mail.com
+Vikram Kumar,Business Analyst,6.0,"python,azure,tableau",Hyderabad,30,user512@mail.com
+Rahul Prakash,BI Analyst,6.6,"sql,excel,azure,dax,python",Chennai,15,user513@mail.com
+Rohit Patel,Data Analyst,6.3,"power bi,azure,excel,dax,tableau",Chennai,60,user514@mail.com
+Asha Reddy,Reporting Analyst,6.3,"excel,python,tableau",Hyderabad,15,user515@mail.com
+Asha Kumar,Data Analyst,3.8,"excel,dax,python,power bi",Mumbai,45,user516@mail.com
+Arun Shah,BI Analyst,6.6,"excel,python,azure",Bangalore,15,user517@mail.com
+Kiran Nair,Business Analyst,2.5,"power query,power bi,azure,tableau",Pune,90,user518@mail.com
+Vikram Nair,Reporting Analyst,5.0,"power query,dax,power bi,azure",Mumbai,15,user519@mail.com
+Asha Shah,Business Analyst,5.0,"excel,dax,tableau,sql",Mumbai,90,user520@mail.com
+Asha Kumar,Power BI Developer,1.5,"azure,excel,sql,power bi,tableau,dax",Mumbai,30,user521@mail.com
+Kiran Patel,Data Analyst,4.8,"excel,power query,dax,tableau,power bi",Hyderabad,45,user522@mail.com
+Priya Reddy,Business Analyst,7.9,"tableau,power query,python",Mumbai,60,user523@mail.com
+Kiran Reddy,Power BI Developer,6.8,"sql,power query,dax",Pune,30,user524@mail.com
+Kiran Patel,BI Analyst,2.4,"excel,dax,power query,azure,power bi,tableau",Bangalore,30,user525@mail.com
+Anita Nair,Data Analyst,4.2,"sql,python,excel",Bangalore,15,user526@mail.com
+Vikram Nair,Business Analyst,1.8,"sql,power bi,power query,azure,dax",Hyderabad,60,user527@mail.com
+Anita Shah,Reporting Analyst,3.0,"dax,power bi,excel,tableau",Mumbai,15,user528@mail.com
+Meera Kumar,Power BI Developer,3.9,"dax,python,power bi,tableau,azure,excel",Hyderabad,60,user529@mail.com
+Vikram Raman,BI Analyst,7.3,"excel,power bi,tableau",Pune,90,user530@mail.com
+Asha Prakash,Reporting Analyst,6.6,"sql,dax,azure,power query",Pune,45,user531@mail.com
+Priya Iyer,Business Analyst,3.4,"power query,tableau,sql,dax,power bi,python",Bangalore,45,user532@mail.com
+Kiran Prakash,Power BI Developer,3.7,"power bi,excel,tableau,dax",Hyderabad,30,user533@mail.com
+Vikram Prakash,Data Analyst,5.0,"python,sql,power bi,power query",Mumbai,15,user534@mail.com
+Anita Patel,Business Analyst,1.9,"excel,python,dax",Bangalore,15,user535@mail.com
+Vikram Nair,Business Analyst,2.2,"excel,dax,tableau",Bangalore,30,user536@mail.com
+Meera Shah,Reporting Analyst,2.1,"power query,azure,power bi",Bangalore,90,user537@mail.com
+Sneha Prakash,BI Analyst,1.8,"sql,dax,power query,python,excel",Mumbai,30,user538@mail.com
+Anita Raman,Power BI Developer,3.9,"dax,excel,power bi,tableau,sql",Bangalore,30,user539@mail.com
+Rahul Raman,BI Analyst,7.7,"excel,dax,power query,sql,python,tableau",Mumbai,45,user540@mail.com
+Anita Kumar,BI Analyst,7.5,"dax,power query,sql,azure,tableau,power bi",Mumbai,15,user541@mail.com
+Kiran Prakash,Business Analyst,5.4,"dax,tableau,power bi,azure",Chennai,45,user542@mail.com
+Priya Iyer,Data Analyst,4.1,"power bi,tableau,azure,excel,dax",Pune,30,user543@mail.com
+Asha Patel,Power BI Developer,4.1,"sql,tableau,power query,power bi,python,excel",Chennai,45,user544@mail.com
+Arun Patel,Reporting Analyst,3.0,"excel,power query,dax,python",Mumbai,90,user545@mail.com
+Anita Nair,Data Analyst,2.9,"azure,tableau,python",Hyderabad,60,user546@mail.com
+Rohit Iyer,Business Analyst,5.1,"python,sql,azure,power query,tableau",Chennai,45,user547@mail.com
+Arun Raman,BI Analyst,3.7,"sql,excel,power bi,azure,python",Hyderabad,90,user548@mail.com
+Rohit Patel,Power BI Developer,1.7,"dax,azure,python",Chennai,45,user549@mail.com
+Priya Iyer,BI Analyst,5.4,"python,tableau,excel,power query,dax",Pune,15,user550@mail.com
+Anita Reddy,Data Analyst,5.9,"power query,power bi,tableau,sql",Mumbai,90,user551@mail.com
+Rahul Patel,BI Analyst,6.2,"power bi,python,tableau,power query,azure",Hyderabad,30,user552@mail.com
+Anita Reddy,Power BI Developer,6.0,"power query,dax,python,azure,excel",Mumbai,45,user553@mail.com
+Asha Prakash,BI Analyst,1.0,"excel,power query,sql,azure,python",Mumbai,90,user554@mail.com
+Rohit Kumar,BI Analyst,1.6,"python,power query,azure",Chennai,30,user555@mail.com
+Sneha Raman,Reporting Analyst,2.5,"dax,python,azure,power query,sql,tableau",Mumbai,60,user556@mail.com
+Asha Shah,Reporting Analyst,2.9,"python,power bi,tableau,excel",Mumbai,30,user557@mail.com
+Rohit Reddy,Reporting Analyst,7.4,"excel,tableau,power bi,sql,python",Bangalore,45,user558@mail.com
+Asha Nair,BI Analyst,4.6,"tableau,power query,python,sql,azure,power bi",Bangalore,30,user559@mail.com
+Asha Shah,Data Analyst,7.7,"excel,sql,dax,tableau,python,power query",Chennai,30,user560@mail.com
+Asha Shah,Data Analyst,5.1,"azure,tableau,dax,sql,python,power bi",Pune,45,user561@mail.com
+Anita Iyer,Data Analyst,5.1,"power bi,python,sql,tableau,excel",Bangalore,90,user562@mail.com
+Arun Kumar,Data Analyst,3.3,"python,azure,power bi,sql,power query",Chennai,30,user563@mail.com
+Vikram Raman,Power BI Developer,1.3,"python,excel,azure,tableau,sql",Chennai,45,user564@mail.com
+Priya Prakash,Business Analyst,4.2,"python,power bi,azure,excel,dax",Mumbai,30,user565@mail.com
+Rahul Patel,Power BI Developer,5.2,"tableau,sql,python",Chennai,90,user566@mail.com
+Rohit Patel,BI Analyst,3.5,"tableau,sql,azure,power bi,dax",Hyderabad,30,user567@mail.com
+Rahul Shah,Data Analyst,4.0,"power query,azure,sql,excel",Chennai,60,user568@mail.com
+Sneha Kumar,Power BI Developer,2.5,"power bi,excel,azure",Hyderabad,60,user569@mail.com
+Rahul Kumar,Data Analyst,3.3,"sql,power bi,tableau,python,power query,excel",Hyderabad,90,user570@mail.com
+Priya Prakash,Business Analyst,3.3,"excel,power query,power bi,sql,python",Pune,15,user571@mail.com
+Priya Kumar,Power BI Developer,7.5,"sql,tableau,python",Pune,60,user572@mail.com
+Sneha Nair,BI Analyst,4.6,"power bi,python,power query,azure,tableau",Chennai,60,user573@mail.com
+Priya Reddy,Business Analyst,4.6,"azure,python,dax,excel",Bangalore,15,user574@mail.com
+Priya Iyer,Power BI Developer,3.3,"python,azure,dax,sql,tableau,power bi",Mumbai,30,user575@mail.com
+Rahul Raman,Power BI Developer,2.0,"excel,python,power bi",Chennai,45,user576@mail.com
+Vikram Nair,Business Analyst,1.1,"power bi,tableau,azure",Pune,15,user577@mail.com
+Asha Iyer,BI Analyst,6.0,"python,sql,power bi,azure",Bangalore,90,user578@mail.com
+Asha Kumar,BI Analyst,6.4,"tableau,sql,azure,dax",Chennai,90,user579@mail.com
+Rohit Prakash,BI Analyst,2.2,"sql,tableau,python,dax",Bangalore,30,user580@mail.com
+Asha Shah,Reporting Analyst,6.6,"tableau,dax,python",Pune,60,user581@mail.com
+Rohit Shah,Reporting Analyst,5.5,"azure,sql,power bi,power query,tableau",Chennai,15,user582@mail.com
+Rahul Nair,BI Analyst,6.4,"dax,azure,python",Bangalore,90,user583@mail.com
+Vikram Nair,Reporting Analyst,1.8,"sql,excel,power query,azure,power bi",Pune,15,user584@mail.com
+Arun Prakash,Business Analyst,7.3,"excel,tableau,power query,sql,azure,dax",Bangalore,15,user585@mail.com
+Anita Shah,Power BI Developer,3.3,"python,sql,excel,azure",Chennai,15,user586@mail.com
+Kiran Shah,Reporting Analyst,6.5,"dax,python,sql",Chennai,60,user587@mail.com
+Arun Iyer,BI Analyst,6.5,"power query,power bi,azure,tableau",Mumbai,60,user588@mail.com
+Rohit Prakash,Business Analyst,2.0,"tableau,dax,azure",Hyderabad,90,user589@mail.com
+Rahul Kumar,Data Analyst,3.2,"power bi,azure,tableau,dax,excel",Mumbai,15,user590@mail.com
+Arun Iyer,Business Analyst,6.6,"azure,excel,power query,tableau,sql,dax",Mumbai,90,user591@mail.com
+Arun Shah,Data Analyst,6.0,"sql,python,azure,power query,power bi,dax",Chennai,30,user592@mail.com
+Anita Reddy,Reporting Analyst,6.6,"azure,python,excel,power bi,tableau",Bangalore,60,user593@mail.com
+Vikram Raman,Data Analyst,6.1,"tableau,power query,azure",Pune,60,user594@mail.com
+Arun Iyer,Power BI Developer,4.3,"python,excel,sql,power query,azure,tableau",Chennai,45,user595@mail.com
+Vikram Patel,BI Analyst,5.6,"power bi,azure,dax",Chennai,30,user596@mail.com
+Rohit Nair,Data Analyst,2.4,"power bi,python,tableau,sql",Hyderabad,30,user597@mail.com
+Priya Shah,Reporting Analyst,1.5,"sql,power bi,power query,python",Mumbai,60,user598@mail.com
+Kiran Nair,Data Analyst,4.2,"azure,power query,sql,power bi",Bangalore,45,user599@mail.com
+Rahul Prakash,BI Analyst,7.1,"power bi,tableau,power query",Bangalore,30,user600@mail.com
+Vikram Shah,BI Analyst,2.5,"excel,python,azure,power bi",Mumbai,30,user601@mail.com
+Sneha Patel,Power BI Developer,7.7,"power bi,excel,sql,power query,dax",Pune,60,user602@mail.com
+Vikram Shah,Business Analyst,1.9,"power bi,sql,azure,excel,power query,dax",Hyderabad,45,user603@mail.com
+Sneha Iyer,Data Analyst,1.8,"azure,power bi,dax",Pune,60,user604@mail.com
+Asha Raman,Reporting Analyst,1.6,"python,tableau,dax",Pune,60,user605@mail.com
+Rahul Patel,Power BI Developer,5.2,"power bi,excel,azure,power query,sql,tableau",Hyderabad,60,user606@mail.com
+Kiran Prakash,Data Analyst,6.7,"dax,power bi,power query,python,sql,excel",Bangalore,45,user607@mail.com
+Sneha Raman,BI Analyst,6.1,"excel,azure,dax,tableau,power query",Hyderabad,15,user608@mail.com
+Rahul Prakash,Reporting Analyst,5.2,"power bi,python,azure,dax,sql,excel",Bangalore,15,user609@mail.com
+Priya Patel,Data Analyst,2.5,"sql,dax,excel,power bi",Mumbai,60,user610@mail.com
+Priya Reddy,Power BI Developer,6.9,"excel,dax,tableau,power query,sql,python",Pune,90,user611@mail.com
+Kiran Reddy,Power BI Developer,3.7,"python,azure,power bi",Hyderabad,15,user612@mail.com
+Arun Nair,Reporting Analyst,5.2,"tableau,azure,sql,dax,excel,python",Mumbai,30,user613@mail.com
+Meera Raman,Power BI Developer,1.8,"dax,tableau,sql",Hyderabad,45,user614@mail.com
+Priya Iyer,Data Analyst,5.2,"power bi,power query,azure",Pune,15,user615@mail.com
+Kiran Prakash,Reporting Analyst,6.2,"azure,excel,sql",Pune,15,user616@mail.com
+Anita Reddy,Data Analyst,1.7,"power bi,dax,python,azure,excel",Hyderabad,60,user617@mail.com
+Rohit Reddy,BI Analyst,5.3,"power bi,azure,sql,tableau,excel",Mumbai,15,user618@mail.com
+Arun Patel,Business Analyst,2.4,"power query,dax,tableau,azure,excel",Chennai,30,user619@mail.com
+Asha Nair,Data Analyst,3.9,"power query,excel,dax",Hyderabad,30,user620@mail.com
+Kiran Kumar,Data Analyst,6.3,"excel,dax,power query,tableau,azure",Hyderabad,90,user621@mail.com
+Arun Prakash,BI Analyst,1.2,"sql,power bi,power query,excel,azure,tableau",Pune,15,user622@mail.com
+Vikram Iyer,BI Analyst,6.5,"dax,tableau,azure",Pune,30,user623@mail.com
+Asha Shah,Power BI Developer,5.2,"power query,excel,sql,power bi",Chennai,90,user624@mail.com
+Meera Iyer,Reporting Analyst,5.2,"azure,power query,power bi,python,dax",Hyderabad,90,user625@mail.com
+Sneha Kumar,BI Analyst,7.9,"power bi,excel,sql,dax",Bangalore,15,user626@mail.com
+Rohit Shah,Power BI Developer,4.5,"python,azure,tableau,dax",Hyderabad,90,user627@mail.com
+Asha Kumar,Power BI Developer,4.4,"power query,azure,tableau,excel,python",Chennai,15,user628@mail.com
+Vikram Raman,Reporting Analyst,4.7,"tableau,dax,sql,python",Mumbai,30,user629@mail.com
+Arun Prakash,Data Analyst,6.9,"excel,python,power query,tableau,azure",Bangalore,45,user630@mail.com
+Priya Nair,Data Analyst,7.0,"python,power query,power bi",Mumbai,60,user631@mail.com
+Anita Prakash,BI Analyst,5.9,"excel,python,azure",Chennai,30,user632@mail.com
+Sneha Prakash,Business Analyst,1.6,"power bi,azure,power query",Bangalore,45,user633@mail.com
+Asha Shah,Data Analyst,4.6,"azure,python,dax",Hyderabad,90,user634@mail.com
+Sneha Raman,Data Analyst,7.6,"python,power bi,tableau,dax",Hyderabad,15,user635@mail.com
+Anita Prakash,BI Analyst,4.3,"excel,dax,power query",Mumbai,90,user636@mail.com
+Sneha Patel,Business Analyst,7.4,"sql,dax,excel,python",Mumbai,15,user637@mail.com
+Rohit Shah,Power BI Developer,1.7,"power query,sql,azure",Chennai,60,user638@mail.com
+Arun Raman,Business Analyst,6.7,"power bi,python,sql,power query,dax,tableau",Hyderabad,60,user639@mail.com
+Kiran Reddy,Data Analyst,5.2,"dax,power query,python",Bangalore,30,user640@mail.com
+Sneha Shah,Data Analyst,2.0,"sql,python,power bi,azure",Hyderabad,15,user641@mail.com
+Kiran Prakash,Reporting Analyst,3.2,"python,sql,excel,dax,azure",Hyderabad,45,user642@mail.com
+Rahul Patel,Reporting Analyst,2.0,"excel,power query,python,tableau,dax,sql",Pune,90,user643@mail.com
+Kiran Prakash,Business Analyst,7.2,"power query,excel,power bi,dax",Bangalore,30,user644@mail.com
+Asha Nair,Data Analyst,2.1,"tableau,power query,power bi",Chennai,90,user645@mail.com
+Kiran Raman,Power BI Developer,6.0,"excel,power query,power bi,dax",Pune,60,user646@mail.com
+Kiran Raman,Business Analyst,1.8,"tableau,power bi,python,excel,power query",Hyderabad,15,user647@mail.com
+Vikram Patel,Data Analyst,7.7,"tableau,azure,power bi,excel,python",Hyderabad,90,user648@mail.com
+Vikram Prakash,Reporting Analyst,4.0,"dax,python,sql,power bi,power query,azure",Pune,45,user649@mail.com
+Meera Patel,BI Analyst,7.4,"tableau,python,azure,dax,sql",Hyderabad,60,user650@mail.com
+Vikram Raman,Power BI Developer,6.6,"excel,azure,power query,python",Chennai,45,user651@mail.com
+Sneha Reddy,Business Analyst,5.5,"sql,power bi,dax,tableau",Bangalore,60,user652@mail.com
+Priya Nair,Power BI Developer,4.6,"azure,power bi,tableau",Hyderabad,15,user653@mail.com
+Rohit Nair,BI Analyst,7.6,"azure,dax,tableau",Bangalore,60,user654@mail.com
+Kiran Prakash,Reporting Analyst,5.5,"power query,azure,tableau,sql,dax,power bi",Pune,30,user655@mail.com
+Vikram Patel,Data Analyst,5.7,"azure,power query,excel,tableau,dax",Chennai,90,user656@mail.com
+Meera Shah,Reporting Analyst,7.1,"python,tableau,power query,excel,sql,azure",Hyderabad,15,user657@mail.com
+Rahul Raman,Data Analyst,1.2,"python,excel,power query,dax,power bi,tableau",Bangalore,45,user658@mail.com
+Asha Kumar,Reporting Analyst,3.0,"excel,power query,power bi,python,azure",Pune,15,user659@mail.com
+Priya Nair,Power BI Developer,4.8,"sql,power query,power bi",Pune,90,user660@mail.com
+Sneha Iyer,BI Analyst,2.3,"dax,sql,excel,azure",Bangalore,90,user661@mail.com
+Anita Prakash,Power BI Developer,5.4,"tableau,power query,dax,power bi,excel",Pune,15,user662@mail.com
+Vikram Iyer,BI Analyst,4.7,"excel,azure,tableau,power bi,power query,python",Chennai,45,user663@mail.com
+Vikram Nair,Data Analyst,2.6,"tableau,dax,sql,power bi,python,azure",Pune,60,user664@mail.com
+Priya Nair,Business Analyst,1.5,"power bi,python,excel,azure,tableau,sql",Pune,60,user665@mail.com
+Arun Patel,Reporting Analyst,7.7,"sql,power query,python,tableau,dax",Pune,45,user666@mail.com
+Asha Raman,BI Analyst,2.5,"tableau,excel,power query,azure,power bi,dax",Chennai,90,user667@mail.com
+Rohit Nair,Power BI Developer,5.6,"power bi,power query,excel",Bangalore,90,user668@mail.com
+Arun Shah,Business Analyst,2.0,"excel,sql,tableau,azure",Hyderabad,15,user669@mail.com
+Asha Patel,Reporting Analyst,1.3,"tableau,power query,excel,python",Pune,30,user670@mail.com
+Asha Prakash,Business Analyst,6.1,"tableau,python,sql,power query,dax",Hyderabad,60,user671@mail.com
+Priya Patel,Business Analyst,1.5,"power bi,python,dax",Pune,15,user672@mail.com
+Vikram Nair,Business Analyst,6.0,"excel,azure,tableau,power query",Hyderabad,90,user673@mail.com
+Vikram Raman,Business Analyst,3.3,"tableau,python,excel,azure,sql,power bi",Bangalore,90,user674@mail.com
+Anita Raman,BI Analyst,1.4,"dax,tableau,python,excel,power query,sql",Bangalore,45,user675@mail.com
+Vikram Patel,Power BI Developer,4.3,"power query,power bi,sql,azure,dax,excel",Chennai,30,user676@mail.com
+Arun Iyer,Reporting Analyst,3.6,"python,dax,power query,sql,excel",Mumbai,60,user677@mail.com
+Sneha Raman,Business Analyst,1.5,"power query,power bi,azure,tableau,sql,dax",Mumbai,30,user678@mail.com
+Asha Kumar,Reporting Analyst,5.4,"dax,python,excel,azure,tableau,power query",Bangalore,60,user679@mail.com
+Asha Kumar,Data Analyst,1.3,"dax,tableau,power query,power bi",Bangalore,60,user680@mail.com
+Meera Patel,Business Analyst,6.0,"python,azure,dax,sql",Bangalore,45,user681@mail.com
+Anita Kumar,Data Analyst,2.2,"sql,power bi,tableau,power query",Bangalore,30,user682@mail.com
+Kiran Prakash,Data Analyst,3.7,"tableau,power query,sql,azure",Bangalore,60,user683@mail.com
+Rahul Raman,Data Analyst,6.2,"dax,excel,sql",Chennai,30,user684@mail.com
+Arun Shah,Power BI Developer,2.3,"dax,tableau,excel,sql,azure",Pune,30,user685@mail.com
+Rohit Iyer,Data Analyst,2.9,"dax,tableau,power query",Hyderabad,45,user686@mail.com
+Arun Shah,BI Analyst,5.8,"power query,dax,power bi",Chennai,90,user687@mail.com
+Arun Nair,Power BI Developer,7.6,"dax,sql,excel,power query",Bangalore,45,user688@mail.com
+Vikram Nair,Reporting Analyst,5.6,"tableau,dax,azure,excel,sql",Pune,60,user689@mail.com
+Asha Shah,BI Analyst,5.7,"excel,tableau,azure,dax,power query",Pune,15,user690@mail.com
+Rahul Prakash,Reporting Analyst,3.2,"tableau,excel,sql,dax",Mumbai,60,user691@mail.com
+Rohit Reddy,Data Analyst,7.3,"python,excel,azure",Bangalore,90,user692@mail.com
+Priya Kumar,Data Analyst,4.5,"python,excel,azure",Hyderabad,90,user693@mail.com
+Rahul Reddy,Data Analyst,2.7,"azure,tableau,python,power bi",Chennai,60,user694@mail.com
+Rohit Raman,Reporting Analyst,7.6,"tableau,azure,python,dax,sql",Pune,60,user695@mail.com
+Anita Iyer,BI Analyst,7.1,"tableau,power bi,excel,azure,sql,power query",Pune,90,user696@mail.com
+Vikram Prakash,BI Analyst,6.3,"dax,power bi,power query,azure,python",Chennai,90,user697@mail.com
+Arun Kumar,BI Analyst,4.7,"sql,python,excel",Pune,60,user698@mail.com
+Meera Patel,Data Analyst,2.4,"python,power query,tableau,power bi,sql,excel",Pune,45,user699@mail.com
+Vikram Raman,BI Analyst,6.8,"sql,tableau,azure,dax",Hyderabad,30,user700@mail.com
+Vikram Patel,Reporting Analyst,8.0,"dax,excel,azure,tableau,sql",Pune,30,user701@mail.com
+Kiran Kumar,Data Analyst,3.7,"tableau,dax,azure,power query,power bi",Hyderabad,60,user702@mail.com
+Anita Reddy,Business Analyst,2.2,"tableau,sql,dax",Hyderabad,60,user703@mail.com
+Asha Kumar,Power BI Developer,5.3,"python,azure,power query",Bangalore,30,user704@mail.com
+Vikram Shah,BI Analyst,2.5,"azure,dax,tableau,power bi,python,power query",Bangalore,90,user705@mail.com
+Anita Reddy,BI Analyst,1.6,"azure,dax,tableau,power bi",Pune,15,user706@mail.com
+Meera Shah,Business Analyst,6.3,"dax,excel,azure",Pune,15,user707@mail.com
+Arun Iyer,Power BI Developer,2.7,"excel,tableau,python",Chennai,90,user708@mail.com
+Rohit Kumar,BI Analyst,2.4,"sql,python,dax",Pune,90,user709@mail.com
+Anita Patel,Reporting Analyst,6.1,"power query,power bi,azure,excel,sql",Mumbai,90,user710@mail.com
+Asha Raman,Business Analyst,6.5,"python,dax,azure,power bi,excel,sql",Mumbai,15,user711@mail.com
+Rahul Shah,Data Analyst,6.9,"tableau,dax,excel,power query,azure,sql",Chennai,15,user712@mail.com
+Priya Shah,Power BI Developer,5.0,"power query,sql,dax,python,tableau",Hyderabad,90,user713@mail.com
+Sneha Patel,BI Analyst,7.7,"sql,azure,python,excel,power bi",Chennai,30,user714@mail.com
+Rahul Kumar,Business Analyst,7.9,"dax,power query,tableau",Pune,30,user715@mail.com
+Rohit Kumar,Power BI Developer,2.9,"python,sql,azure,tableau,excel",Bangalore,60,user716@mail.com
+Anita Kumar,Reporting Analyst,5.3,"python,power query,power bi,sql",Bangalore,45,user717@mail.com
+Anita Shah,Reporting Analyst,2.9,"power bi,dax,power query",Chennai,15,user718@mail.com
+Vikram Kumar,BI Analyst,3.1,"sql,tableau,excel",Hyderabad,15,user719@mail.com
+Rohit Patel,BI Analyst,2.1,"power bi,sql,azure,tableau,dax,excel",Chennai,15,user720@mail.com
+Priya Iyer,BI Analyst,3.5,"sql,python,tableau,power query",Mumbai,45,user721@mail.com
+Meera Iyer,Data Analyst,4.4,"excel,sql,power bi,azure",Mumbai,45,user722@mail.com
+Rahul Reddy,Power BI Developer,1.6,"power bi,sql,power query",Hyderabad,90,user723@mail.com
+Rahul Patel,Data Analyst,6.5,"dax,sql,python,azure",Chennai,15,user724@mail.com
+Anita Nair,Reporting Analyst,6.5,"azure,python,sql",Hyderabad,45,user725@mail.com
+Priya Shah,Data Analyst,7.9,"tableau,power query,excel,sql",Chennai,15,user726@mail.com
+Rohit Reddy,Power BI Developer,2.5,"power bi,tableau,dax,azure,excel,power query",Mumbai,60,user727@mail.com
+Arun Nair,Power BI Developer,6.9,"sql,python,dax,power query",Hyderabad,45,user728@mail.com
+Meera Prakash,BI Analyst,4.6,"dax,power bi,python,excel",Pune,45,user729@mail.com
+Rohit Patel,Power BI Developer,2.1,"sql,tableau,azure,power bi",Bangalore,60,user730@mail.com
+Meera Patel,Business Analyst,7.5,"sql,azure,power bi,python,dax",Hyderabad,15,user731@mail.com
+Arun Iyer,BI Analyst,2.4,"azure,excel,power bi,dax,power query,sql",Hyderabad,15,user732@mail.com
+Rahul Iyer,Business Analyst,2.3,"python,dax,power bi",Bangalore,90,user733@mail.com
+Vikram Reddy,Reporting Analyst,1.7,"azure,excel,power query,python,sql,dax",Mumbai,60,user734@mail.com
+Sneha Reddy,Power BI Developer,3.8,"python,power query,power bi,tableau",Hyderabad,45,user735@mail.com
+Kiran Shah,Data Analyst,3.2,"power query,power bi,excel,sql",Pune,90,user736@mail.com
+Arun Nair,BI Analyst,6.8,"power bi,excel,dax",Hyderabad,45,user737@mail.com
+Priya Raman,Power BI Developer,6.0,"azure,power query,excel",Bangalore,30,user738@mail.com
+Rahul Nair,Reporting Analyst,3.1,"tableau,sql,azure,dax,python,power bi",Chennai,60,user739@mail.com
+Sneha Reddy,Business Analyst,3.4,"excel,sql,dax,tableau,python,azure",Pune,30,user740@mail.com
+Arun Reddy,Reporting Analyst,8.0,"power query,excel,power bi",Hyderabad,90,user741@mail.com
+Arun Raman,Data Analyst,3.4,"tableau,power bi,excel",Mumbai,30,user742@mail.com
+Anita Prakash,Power BI Developer,3.8,"azure,power bi,tableau",Mumbai,15,user743@mail.com
+Rohit Iyer,Power BI Developer,4.0,"azure,tableau,power bi,excel,power query",Chennai,30,user744@mail.com
+Anita Kumar,Data Analyst,1.5,"power bi,azure,sql",Bangalore,30,user745@mail.com
+Anita Reddy,Power BI Developer,4.0,"tableau,power query,power bi,sql,azure",Mumbai,60,user746@mail.com
+Meera Shah,Power BI Developer,6.8,"sql,dax,power query,power bi",Bangalore,45,user747@mail.com
+Arun Raman,Business Analyst,2.6,"azure,power query,python,sql,dax",Pune,45,user748@mail.com
+Priya Iyer,Reporting Analyst,5.3,"azure,dax,tableau,excel,python,power query",Mumbai,90,user749@mail.com
+Rohit Reddy,Data Analyst,5.7,"excel,tableau,azure,dax",Hyderabad,60,user750@mail.com
+Rohit Raman,Business Analyst,6.2,"excel,python,power bi,dax,power query",Bangalore,45,user751@mail.com
+Kiran Shah,BI Analyst,3.1,"excel,sql,dax,power query",Hyderabad,90,user752@mail.com
+Sneha Patel,Business Analyst,1.9,"tableau,excel,sql,dax,azure",Bangalore,90,user753@mail.com
+Vikram Nair,Power BI Developer,4.4,"power bi,python,dax",Chennai,45,user754@mail.com
+Kiran Prakash,BI Analyst,3.8,"sql,azure,dax,power bi,tableau",Pune,90,user755@mail.com
+Kiran Iyer,Data Analyst,1.8,"power bi,tableau,dax,excel",Pune,30,user756@mail.com
+Sneha Prakash,Reporting Analyst,2.6,"python,azure,dax",Mumbai,90,user757@mail.com
+Vikram Raman,Business Analyst,4.6,"azure,tableau,dax,python,excel",Bangalore,60,user758@mail.com
+Rahul Reddy,Reporting Analyst,7.1,"dax,power bi,power query,python,excel,sql",Bangalore,30,user759@mail.com
+Sneha Reddy,Business Analyst,5.4,"excel,power query,power bi,dax,sql",Chennai,30,user760@mail.com
+Rohit Shah,Business Analyst,1.7,"tableau,power bi,excel,azure,power query,dax",Pune,60,user761@mail.com
+Priya Nair,Business Analyst,5.4,"power bi,tableau,excel,python,sql,azure",Mumbai,60,user762@mail.com
+Priya Patel,Data Analyst,4.9,"power bi,power query,python",Mumbai,60,user763@mail.com
+Meera Kumar,Power BI Developer,2.6,"dax,sql,power bi,excel,tableau",Hyderabad,45,user764@mail.com
+Anita Kumar,Power BI Developer,2.0,"dax,excel,sql,python,azure,tableau",Pune,45,user765@mail.com
+Sneha Prakash,Reporting Analyst,3.7,"power query,sql,dax,tableau,azure,excel",Bangalore,90,user766@mail.com
+Meera Kumar,Business Analyst,3.0,"python,power bi,sql,power query,tableau",Hyderabad,45,user767@mail.com
+Sneha Patel,Power BI Developer,4.4,"azure,python,dax",Pune,60,user768@mail.com
+Sneha Raman,Power BI Developer,4.3,"sql,python,excel,power query",Hyderabad,45,user769@mail.com
+Rohit Patel,Reporting Analyst,2.0,"sql,tableau,power query,python",Hyderabad,60,user770@mail.com
+Anita Nair,Power BI Developer,3.0,"dax,power query,sql",Bangalore,30,user771@mail.com
+Priya Iyer,Business Analyst,1.4,"sql,power bi,tableau,azure",Hyderabad,30,user772@mail.com
+Rohit Reddy,Reporting Analyst,2.1,"azure,excel,python,power query,sql",Pune,90,user773@mail.com
+Priya Reddy,BI Analyst,5.7,"excel,power query,power bi,tableau,python,azure",Pune,45,user774@mail.com
+Vikram Iyer,Data Analyst,1.1,"azure,sql,tableau,python,dax,power bi",Chennai,45,user775@mail.com
+Arun Patel,Business Analyst,4.8,"tableau,excel,azure,sql",Bangalore,90,user776@mail.com
+Anita Kumar,Reporting Analyst,2.3,"sql,azure,python,power query,power bi,tableau",Pune,90,user777@mail.com
+Vikram Prakash,Reporting Analyst,7.4,"azure,power query,sql,tableau",Pune,45,user778@mail.com
+Kiran Nair,Reporting Analyst,4.9,"python,power bi,azure,sql,excel",Mumbai,15,user779@mail.com
+Asha Nair,BI Analyst,4.2,"azure,power bi,tableau,power query,excel,dax",Bangalore,45,user780@mail.com
+Meera Kumar,BI Analyst,3.7,"dax,python,excel",Chennai,45,user781@mail.com
+Meera Iyer,Data Analyst,5.7,"power query,power bi,python,sql,dax",Bangalore,90,user782@mail.com
+Rohit Reddy,BI Analyst,5.5,"sql,azure,tableau",Bangalore,60,user783@mail.com
+Rahul Iyer,Business Analyst,3.2,"dax,azure,sql,tableau,excel,power query",Pune,90,user784@mail.com
+Arun Iyer,Business Analyst,4.1,"azure,power bi,dax",Pune,60,user785@mail.com
+Arun Nair,BI Analyst,1.5,"tableau,power query,dax,sql",Bangalore,30,user786@mail.com
+Arun Nair,Reporting Analyst,4.7,"excel,power query,python,power bi,dax,azure",Pune,30,user787@mail.com
+Anita Reddy,Power BI Developer,5.3,"sql,power bi,python,dax",Hyderabad,60,user788@mail.com
+Sneha Kumar,BI Analyst,4.7,"tableau,power query,power bi,sql",Bangalore,90,user789@mail.com
+Meera Shah,Power BI Developer,5.5,"tableau,azure,dax,sql,python",Hyderabad,30,user790@mail.com
+Meera Kumar,Power BI Developer,7.3,"dax,power query,python",Pune,60,user791@mail.com
+Kiran Reddy,Reporting Analyst,1.1,"power query,sql,python,tableau",Pune,45,user792@mail.com
+Rahul Shah,Business Analyst,1.6,"tableau,dax,power query",Pune,90,user793@mail.com
+Arun Reddy,Power BI Developer,4.0,"excel,dax,power bi",Chennai,60,user794@mail.com
+Asha Iyer,Reporting Analyst,6.1,"tableau,python,sql,power bi,excel",Pune,45,user795@mail.com
+Priya Nair,Data Analyst,2.1,"tableau,sql,power bi,python",Hyderabad,90,user796@mail.com
+Meera Raman,BI Analyst,6.4,"sql,excel,power bi,tableau",Mumbai,45,user797@mail.com
+Rohit Patel,Data Analyst,5.7,"python,azure,sql",Pune,60,user798@mail.com
+Meera Iyer,Power BI Developer,1.3,"azure,power query,excel",Hyderabad,15,user799@mail.com
+Kiran Reddy,Power BI Developer,2.8,"tableau,power query,azure",Chennai,90,user800@mail.com
+Priya Patel,Data Analyst,4.3,"azure,dax,tableau,excel,python",Pune,60,user801@mail.com
+Anita Shah,Business Analyst,5.5,"excel,tableau,dax",Mumbai,45,user802@mail.com
+Arun Raman,BI Analyst,4.5,"azure,excel,sql,python,dax,tableau",Mumbai,15,user803@mail.com
+Kiran Shah,Business Analyst,7.7,"azure,excel,python,power bi",Pune,90,user804@mail.com
+Rohit Prakash,Data Analyst,7.2,"azure,sql,python,dax,power query",Pune,15,user805@mail.com
+Kiran Iyer,Reporting Analyst,2.6,"python,power bi,sql,excel,power query",Mumbai,45,user806@mail.com
+Rohit Raman,Reporting Analyst,7.4,"excel,sql,tableau,dax",Pune,15,user807@mail.com
+Vikram Kumar,Reporting Analyst,6.4,"power bi,dax,sql,azure,power query,tableau",Bangalore,30,user808@mail.com
+Arun Prakash,Reporting Analyst,4.7,"power query,tableau,azure,power bi,sql",Bangalore,30,user809@mail.com
+Kiran Kumar,Data Analyst,5.4,"sql,power query,python,dax,power bi",Mumbai,15,user810@mail.com
+Priya Kumar,Data Analyst,3.3,"sql,dax,tableau,power query,python",Chennai,15,user811@mail.com
+Vikram Reddy,Reporting Analyst,3.8,"excel,tableau,power query,python,dax",Bangalore,45,user812@mail.com
+Sneha Patel,Business Analyst,4.1,"python,sql,tableau,power query,power bi,excel",Mumbai,30,user813@mail.com
+Rohit Reddy,Power BI Developer,7.2,"excel,dax,power bi,tableau,python",Chennai,60,user814@mail.com
+Sneha Kumar,Data Analyst,3.7,"power query,tableau,power bi,excel,azure,sql",Bangalore,90,user815@mail.com
+Vikram Shah,Reporting Analyst,5.0,"tableau,power bi,azure,python,dax",Chennai,90,user816@mail.com
+Rahul Raman,Reporting Analyst,1.5,"power query,tableau,power bi",Mumbai,45,user817@mail.com
+Meera Nair,Power BI Developer,6.3,"azure,power bi,excel",Mumbai,30,user818@mail.com
+Arun Prakash,Power BI Developer,1.1,"python,power query,tableau,azure,sql,power bi",Hyderabad,60,user819@mail.com
+Rohit Raman,Reporting Analyst,7.7,"python,power query,power bi,tableau,sql",Mumbai,90,user820@mail.com
+Vikram Prakash,Reporting Analyst,4.5,"python,dax,tableau,azure",Bangalore,30,user821@mail.com
+Priya Prakash,Data Analyst,1.1,"power query,tableau,azure,sql",Chennai,15,user822@mail.com
+Vikram Iyer,BI Analyst,6.7,"sql,azure,power query",Pune,90,user823@mail.com
+Rohit Nair,Power BI Developer,7.0,"excel,python,tableau,power bi,power query",Pune,60,user824@mail.com
+Sneha Iyer,Business Analyst,3.3,"power bi,azure,sql,excel,python",Bangalore,60,user825@mail.com
+Priya Kumar,Data Analyst,3.6,"python,tableau,sql,excel,azure,dax",Chennai,15,user826@mail.com
+Anita Iyer,Data Analyst,6.7,"power bi,power query,azure,tableau,sql",Pune,60,user827@mail.com
+Rohit Reddy,BI Analyst,5.4,"sql,azure,power bi,tableau,python,excel",Mumbai,90,user828@mail.com
+Kiran Kumar,Business Analyst,2.1,"sql,dax,power bi,excel,python,azure",Hyderabad,90,user829@mail.com
+Priya Patel,Business Analyst,3.2,"python,power bi,dax,power query",Hyderabad,60,user830@mail.com
+Rahul Patel,Data Analyst,3.2,"power bi,tableau,azure,power query,sql,python",Bangalore,45,user831@mail.com
+Priya Patel,Business Analyst,4.5,"tableau,azure,dax",Chennai,60,user832@mail.com
+Meera Raman,Reporting Analyst,2.8,"power query,excel,dax,power bi,python,azure",Chennai,45,user833@mail.com
+Rahul Nair,BI Analyst,7.4,"tableau,sql,dax",Hyderabad,30,user834@mail.com
+Meera Nair,Business Analyst,4.8,"sql,tableau,python,azure,power query",Hyderabad,30,user835@mail.com
+Asha Shah,Business Analyst,6.9,"dax,tableau,excel,sql,power query,azure",Bangalore,15,user836@mail.com
+Vikram Iyer,Data Analyst,1.5,"power bi,tableau,dax,power query,azure",Chennai,60,user837@mail.com
+Vikram Prakash,Business Analyst,1.1,"power bi,python,sql",Mumbai,30,user838@mail.com
+Rohit Raman,Reporting Analyst,6.7,"excel,power query,dax,sql,python",Pune,30,user839@mail.com
+Meera Reddy,BI Analyst,6.4,"dax,excel,python,power query",Chennai,90,user840@mail.com
+Kiran Shah,Power BI Developer,2.4,"sql,power bi,excel,azure,dax,python",Chennai,15,user841@mail.com
+Asha Prakash,BI Analyst,3.6,"azure,power query,python",Chennai,30,user842@mail.com
+Priya Reddy,Power BI Developer,1.4,"power bi,excel,tableau,sql,power query",Bangalore,30,user843@mail.com
+Sneha Nair,BI Analyst,6.0,"tableau,power query,dax",Chennai,60,user844@mail.com
+Sneha Reddy,BI Analyst,7.2,"python,power query,azure,power bi,excel",Chennai,15,user845@mail.com
+Arun Iyer,Power BI Developer,2.3,"dax,power query,azure,sql",Pune,90,user846@mail.com
+Arun Iyer,Reporting Analyst,2.0,"power query,azure,sql,dax,python",Bangalore,30,user847@mail.com
+Vikram Kumar,Reporting Analyst,7.4,"excel,power query,azure",Hyderabad,60,user848@mail.com
+Kiran Nair,Power BI Developer,4.8,"azure,power bi,power query,sql,python,tableau",Chennai,45,user849@mail.com
+Vikram Shah,Business Analyst,7.6,"dax,excel,azure,power bi,sql,tableau",Pune,90,user850@mail.com
+Asha Prakash,Business Analyst,4.8,"power bi,sql,tableau",Pune,30,user851@mail.com
+Vikram Reddy,Data Analyst,1.6,"power query,tableau,python,azure,dax,power bi",Mumbai,30,user852@mail.com
+Asha Reddy,Power BI Developer,7.0,"dax,azure,power bi",Pune,15,user853@mail.com
+Asha Reddy,Data Analyst,1.8,"power bi,tableau,power query,excel,sql,dax",Hyderabad,30,user854@mail.com
+Asha Patel,Reporting Analyst,1.3,"excel,power query,power bi,dax",Chennai,60,user855@mail.com
+Anita Patel,BI Analyst,6.8,"python,power bi,sql,dax",Hyderabad,60,user856@mail.com
+Vikram Kumar,Data Analyst,6.5,"sql,azure,python,dax,power bi,tableau",Mumbai,15,user857@mail.com
+Arun Nair,Power BI Developer,2.6,"excel,tableau,azure,power bi,python,power query",Bangalore,60,user858@mail.com
+Anita Kumar,Data Analyst,5.9,"tableau,dax,power query,sql",Mumbai,15,user859@mail.com
+Anita Reddy,BI Analyst,3.4,"dax,sql,python,azure,power query,excel",Chennai,90,user860@mail.com
+Arun Raman,Business Analyst,3.0,"excel,power query,sql,tableau,power bi,azure",Chennai,15,user861@mail.com
+Priya Kumar,Business Analyst,2.7,"sql,power bi,tableau,power query,excel",Chennai,90,user862@mail.com
+Asha Nair,Business Analyst,4.7,"azure,dax,sql,power bi,python",Bangalore,45,user863@mail.com
+Vikram Reddy,BI Analyst,5.4,"python,excel,sql,dax,power bi",Pune,45,user864@mail.com
+Anita Prakash,Reporting Analyst,7.3,"tableau,python,azure,power bi",Hyderabad,15,user865@mail.com
+Asha Raman,Business Analyst,7.9,"power query,power bi,python",Mumbai,90,user866@mail.com
+Vikram Prakash,Power BI Developer,7.0,"power query,python,tableau,sql,dax",Mumbai,60,user867@mail.com
+Vikram Raman,Reporting Analyst,4.7,"power query,azure,dax",Bangalore,90,user868@mail.com
+Anita Nair,Business Analyst,6.6,"excel,python,power bi,azure",Hyderabad,30,user869@mail.com
+Priya Raman,Business Analyst,4.2,"dax,sql,power bi,excel,python,tableau",Pune,45,user870@mail.com
+Sneha Raman,Reporting Analyst,2.5,"dax,power query,azure,tableau,excel",Hyderabad,90,user871@mail.com
+Meera Iyer,Reporting Analyst,6.2,"python,dax,azure",Chennai,45,user872@mail.com
+Priya Iyer,Power BI Developer,5.8,"azure,sql,power query,power bi,dax,tableau",Chennai,90,user873@mail.com
+Priya Patel,Business Analyst,5.5,"sql,azure,excel,power query",Pune,90,user874@mail.com
+Asha Reddy,Data Analyst,5.0,"python,power bi,tableau,dax,power query,sql",Mumbai,60,user875@mail.com
+Anita Iyer,Business Analyst,2.9,"dax,excel,sql",Mumbai,15,user876@mail.com
+Rohit Iyer,Reporting Analyst,5.0,"excel,python,azure,power query,power bi,tableau",Pune,45,user877@mail.com
+Arun Shah,BI Analyst,4.5,"power query,tableau,azure,dax,python",Bangalore,45,user878@mail.com
+Anita Shah,Power BI Developer,5.5,"azure,sql,tableau,dax",Hyderabad,30,user879@mail.com
+Rohit Raman,Reporting Analyst,1.6,"power query,dax,sql",Chennai,30,user880@mail.com
+Anita Reddy,Data Analyst,4.6,"python,dax,excel,sql",Hyderabad,60,user881@mail.com
+Asha Patel,Reporting Analyst,4.3,"power query,azure,tableau,excel,python,sql",Bangalore,15,user882@mail.com
+Sneha Raman,Reporting Analyst,3.5,"azure,dax,excel",Bangalore,60,user883@mail.com
+Rohit Kumar,Data Analyst,3.0,"python,power query,tableau,excel,dax",Pune,90,user884@mail.com
+Rahul Patel,Data Analyst,7.3,"dax,power query,tableau,python",Pune,45,user885@mail.com
+Asha Kumar,Power BI Developer,2.5,"tableau,sql,power bi",Mumbai,30,user886@mail.com
+Rohit Shah,BI Analyst,4.6,"tableau,power bi,power query,azure",Pune,30,user887@mail.com
+Priya Nair,BI Analyst,5.8,"tableau,dax,sql",Mumbai,15,user888@mail.com
+Arun Shah,Power BI Developer,3.8,"dax,azure,sql,power query",Mumbai,30,user889@mail.com
+Vikram Shah,Power BI Developer,6.8,"sql,excel,azure,dax,power bi,tableau",Bangalore,15,user890@mail.com
+Rahul Nair,Business Analyst,7.4,"tableau,sql,azure,excel",Mumbai,90,user891@mail.com
+Priya Prakash,Power BI Developer,4.4,"excel,power query,dax",Mumbai,45,user892@mail.com
+Priya Kumar,Data Analyst,7.9,"power bi,power query,sql,dax,excel",Chennai,30,user893@mail.com
+Priya Kumar,Business Analyst,7.9,"azure,sql,dax,power bi",Mumbai,60,user894@mail.com
+Vikram Shah,BI Analyst,6.3,"power query,dax,power bi,tableau",Pune,30,user895@mail.com
+Meera Prakash,Reporting Analyst,3.6,"tableau,dax,python",Mumbai,15,user896@mail.com
+Meera Nair,Data Analyst,5.3,"tableau,python,dax,azure,power query",Chennai,60,user897@mail.com
+Priya Raman,Reporting Analyst,2.4,"excel,dax,sql,power query",Hyderabad,45,user898@mail.com
+Sneha Nair,Power BI Developer,6.3,"power query,azure,excel",Hyderabad,90,user899@mail.com
+Arun Raman,Power BI Developer,6.5,"dax,power query,tableau,python,power bi,excel",Mumbai,45,user900@mail.com
+Vikram Kumar,Power BI Developer,2.4,"tableau,sql,excel,dax",Chennai,90,user901@mail.com
+Anita Raman,Power BI Developer,1.0,"python,tableau,power bi,power query,sql",Chennai,30,user902@mail.com
+Arun Raman,Data Analyst,6.5,"tableau,excel,sql,dax",Hyderabad,60,user903@mail.com
+Rohit Iyer,Reporting Analyst,3.0,"excel,python,power query,sql,dax",Pune,30,user904@mail.com
+Kiran Iyer,Reporting Analyst,3.6,"power query,sql,excel",Pune,15,user905@mail.com
+Meera Shah,Business Analyst,3.7,"python,dax,azure,power bi,power query,sql",Pune,45,user906@mail.com
+Rohit Kumar,Business Analyst,4.8,"python,power query,azure,tableau",Pune,15,user907@mail.com
+Anita Raman,Reporting Analyst,2.1,"dax,sql,power bi,python,power query",Chennai,30,user908@mail.com
+Rohit Reddy,Power BI Developer,6.9,"sql,excel,tableau",Hyderabad,60,user909@mail.com
+Asha Reddy,Power BI Developer,6.3,"tableau,azure,sql,excel,dax,power query",Hyderabad,45,user910@mail.com
+Sneha Raman,Business Analyst,5.5,"sql,python,azure,power query,dax",Bangalore,60,user911@mail.com
+Asha Kumar,Reporting Analyst,1.2,"sql,tableau,power bi",Mumbai,30,user912@mail.com
+Vikram Iyer,Power BI Developer,7.8,"azure,power query,python,sql",Chennai,60,user913@mail.com
+Kiran Kumar,Business Analyst,6.7,"power bi,python,azure,sql,power query,tableau",Hyderabad,30,user914@mail.com
+Arun Patel,BI Analyst,5.4,"python,dax,tableau,power query",Mumbai,30,user915@mail.com
+Rohit Kumar,Reporting Analyst,1.2,"power bi,sql,python",Pune,30,user916@mail.com
+Arun Reddy,Power BI Developer,6.2,"dax,power bi,python,azure",Hyderabad,30,user917@mail.com
+Asha Iyer,Data Analyst,3.7,"tableau,sql,power query",Bangalore,90,user918@mail.com
+Rohit Iyer,BI Analyst,4.6,"dax,python,power bi,tableau",Bangalore,45,user919@mail.com
+Sneha Prakash,Power BI Developer,6.2,"excel,tableau,python,sql,power query,power bi",Chennai,45,user920@mail.com
+Asha Shah,Business Analyst,6.4,"power bi,tableau,dax",Chennai,60,user921@mail.com
+Sneha Prakash,Power BI Developer,1.3,"power query,sql,dax,excel,power bi",Mumbai,30,user922@mail.com
+Kiran Shah,Power BI Developer,1.4,"excel,sql,dax,power bi",Chennai,15,user923@mail.com
+Rohit Patel,Reporting Analyst,2.7,"python,tableau,excel",Hyderabad,15,user924@mail.com
+Kiran Kumar,Data Analyst,8.0,"dax,sql,excel,azure",Chennai,15,user925@mail.com
+Priya Raman,Business Analyst,3.5,"tableau,excel,power query",Hyderabad,90,user926@mail.com
+Rahul Prakash,Data Analyst,2.9,"sql,power bi,power query,azure,python",Mumbai,45,user927@mail.com
+Meera Prakash,Reporting Analyst,6.1,"power bi,python,dax,sql",Bangalore,15,user928@mail.com
+Asha Nair,BI Analyst,1.1,"power query,excel,tableau,azure",Hyderabad,90,user929@mail.com
+Meera Reddy,Data Analyst,7.6,"sql,excel,dax,tableau,power bi,python",Mumbai,60,user930@mail.com
+Rohit Kumar,Reporting Analyst,4.4,"tableau,azure,python,excel,power bi,power query",Chennai,15,user931@mail.com
+Asha Patel,BI Analyst,4.8,"tableau,excel,azure,dax",Bangalore,30,user932@mail.com
+Kiran Patel,Reporting Analyst,6.9,"excel,power bi,power query,sql,dax,tableau",Chennai,45,user933@mail.com
+Anita Iyer,BI Analyst,3.8,"tableau,azure,power query",Chennai,90,user934@mail.com
+Meera Raman,Data Analyst,1.9,"python,azure,sql,power bi",Pune,45,user935@mail.com
+Kiran Shah,Data Analyst,5.9,"azure,power query,python,excel",Pune,30,user936@mail.com
+Vikram Iyer,Reporting Analyst,5.6,"python,tableau,power query,dax,azure,excel",Chennai,90,user937@mail.com
+Sneha Shah,Data Analyst,5.5,"tableau,azure,power query,sql,python",Hyderabad,30,user938@mail.com
+Kiran Patel,Reporting Analyst,6.0,"azure,python,power bi",Pune,45,user939@mail.com
+Rahul Iyer,Business Analyst,4.9,"tableau,power bi,python",Chennai,30,user940@mail.com
+Arun Reddy,BI Analyst,6.4,"power bi,power query,tableau,azure,dax,sql",Hyderabad,45,user941@mail.com
+Asha Patel,Reporting Analyst,2.7,"power query,power bi,azure,tableau",Hyderabad,15,user942@mail.com
+Sneha Raman,BI Analyst,8.0,"tableau,python,power query,azure,excel,power bi",Bangalore,90,user943@mail.com
+Arun Kumar,Reporting Analyst,4.7,"power bi,azure,excel",Bangalore,90,user944@mail.com
+Sneha Nair,BI Analyst,1.5,"power query,power bi,python",Bangalore,60,user945@mail.com
+Meera Raman,Data Analyst,3.2,"excel,python,power query,azure,power bi,dax",Pune,45,user946@mail.com
+Asha Iyer,BI Analyst,5.8,"power bi,dax,azure,python,excel",Mumbai,45,user947@mail.com
+Anita Prakash,Data Analyst,4.8,"sql,azure,power query",Hyderabad,45,user948@mail.com
+Vikram Shah,BI Analyst,4.0,"excel,python,tableau,power query,sql,azure",Bangalore,90,user949@mail.com
+Vikram Prakash,Power BI Developer,5.1,"tableau,python,sql,power bi,power query",Hyderabad,45,user950@mail.com
+Meera Kumar,Business Analyst,1.8,"excel,python,tableau,power bi",Mumbai,90,user951@mail.com
+Priya Kumar,Power BI Developer,1.3,"power bi,tableau,dax,azure,power query",Mumbai,15,user952@mail.com
+Asha Shah,Data Analyst,2.0,"python,dax,sql",Hyderabad,30,user953@mail.com
+Sneha Kumar,Business Analyst,7.6,"dax,power query,excel,sql,tableau,azure",Hyderabad,30,user954@mail.com
+Arun Patel,BI Analyst,5.4,"dax,python,azure,excel,tableau",Bangalore,90,user955@mail.com
+Meera Reddy,Business Analyst,4.8,"azure,power bi,dax,sql,excel,power query",Pune,45,user956@mail.com
+Asha Kumar,BI Analyst,3.6,"dax,sql,excel",Pune,15,user957@mail.com
+Rohit Nair,Power BI Developer,5.4,"python,power bi,azure",Chennai,30,user958@mail.com
+Priya Nair,Data Analyst,5.5,"python,power query,excel,tableau,sql",Bangalore,90,user959@mail.com
+Priya Kumar,Data Analyst,5.1,"excel,sql,power bi,power query,python",Hyderabad,15,user960@mail.com
+Anita Nair,Reporting Analyst,2.5,"python,excel,sql,dax",Chennai,90,user961@mail.com
+Rahul Raman,Data Analyst,3.7,"tableau,excel,python,dax,power bi",Chennai,90,user962@mail.com
+Sneha Raman,Business Analyst,2.7,"azure,power bi,excel,tableau",Bangalore,60,user963@mail.com
+Anita Patel,Power BI Developer,6.0,"python,excel,azure,dax,sql,power query",Pune,30,user964@mail.com
+Anita Iyer,BI Analyst,5.0,"dax,python,power bi",Chennai,90,user965@mail.com
+Rahul Shah,Data Analyst,2.7,"python,excel,power query,azure,tableau",Chennai,60,user966@mail.com
+Kiran Nair,Business Analyst,7.3,"azure,dax,power query,excel,tableau",Hyderabad,30,user967@mail.com
+Meera Prakash,Reporting Analyst,2.7,"power query,azure,dax",Hyderabad,45,user968@mail.com
+Asha Shah,Reporting Analyst,6.4,"sql,python,power bi",Chennai,90,user969@mail.com
+Asha Patel,Reporting Analyst,4.8,"sql,excel,power bi,python,azure",Hyderabad,90,user970@mail.com
+Anita Raman,BI Analyst,1.8,"power bi,power query,python,tableau,dax,azure",Hyderabad,60,user971@mail.com
+Rohit Iyer,Data Analyst,4.1,"azure,python,excel,dax,power bi,sql",Hyderabad,45,user972@mail.com
+Meera Kumar,Reporting Analyst,6.6,"python,power query,excel,tableau,dax,sql",Hyderabad,30,user973@mail.com
+Anita Shah,Reporting Analyst,6.9,"dax,azure,power bi,power query",Mumbai,45,user974@mail.com
+Rahul Patel,Business Analyst,4.6,"dax,power query,excel,azure,sql,power bi",Pune,90,user975@mail.com
+Priya Iyer,Power BI Developer,6.7,"power query,sql,power bi,azure,dax,tableau",Chennai,45,user976@mail.com
+Meera Reddy,Business Analyst,3.8,"python,azure,excel,tableau,dax,power query",Chennai,45,user977@mail.com
+Meera Prakash,Data Analyst,3.5,"tableau,power bi,python,dax,power query",Mumbai,45,user978@mail.com
+Arun Nair,Power BI Developer,5.4,"tableau,sql,dax",Bangalore,30,user979@mail.com
+Meera Prakash,Reporting Analyst,7.8,"dax,power bi,python,excel",Pune,30,user980@mail.com
+Meera Raman,Data Analyst,5.0,"power query,power bi,azure,tableau",Bangalore,15,user981@mail.com
+Meera Nair,Power BI Developer,1.1,"azure,power bi,excel,python,dax",Pune,15,user982@mail.com
+Anita Patel,BI Analyst,1.6,"azure,python,excel,tableau",Pune,15,user983@mail.com
+Sneha Reddy,Business Analyst,6.8,"power query,python,tableau,sql",Chennai,60,user984@mail.com
+Rahul Prakash,Data Analyst,6.9,"power bi,dax,python,tableau,power query,azure",Mumbai,30,user985@mail.com
+Meera Prakash,BI Analyst,4.0,"sql,dax,azure,python,power bi",Mumbai,45,user986@mail.com
+Arun Raman,Reporting Analyst,3.9,"azure,power bi,python,dax,sql,excel",Pune,45,user987@mail.com
+Sneha Kumar,Power BI Developer,6.2,"power bi,sql,power query",Mumbai,60,user988@mail.com
+Priya Raman,BI Analyst,6.4,"tableau,azure,power query,python",Bangalore,45,user989@mail.com
+Kiran Kumar,Power BI Developer,3.6,"power query,sql,power bi,excel,python,azure",Mumbai,90,user990@mail.com
+Priya Prakash,Power BI Developer,5.2,"dax,sql,power bi",Chennai,30,user991@mail.com
+Priya Kumar,Reporting Analyst,4.8,"tableau,python,power query,sql",Hyderabad,90,user992@mail.com
+Kiran Iyer,Data Analyst,4.6,"sql,dax,power query,power bi,excel",Chennai,45,user993@mail.com
+Meera Nair,Reporting Analyst,6.9,"python,azure,tableau,excel",Hyderabad,15,user994@mail.com
+Asha Shah,Reporting Analyst,2.3,"dax,power bi,power query,excel,tableau,sql",Bangalore,45,user995@mail.com
+Sneha Iyer,Power BI Developer,1.7,"dax,azure,tableau,sql,python,power query",Mumbai,45,user996@mail.com
+Vikram Kumar,Business Analyst,4.8,"power bi,sql,excel,tableau,python",Mumbai,30,user997@mail.com
+Priya Kumar,BI Analyst,2.5,"dax,sql,power bi",Chennai,60,user998@mail.com
+Asha Iyer,BI Analyst,6.1,"python,sql,dax,power query,tableau,power bi",Chennai,60,user999@mail.com
