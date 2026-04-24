@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Asha Raman",
+    "title": "Power BI Developer",
+    "experience": 4,
+    "skills": ["sql", "power bi", "dax", "python"],
+    "location": "Chennai",
+    "notice_days": 30
+  },
+  {
+    "name": "Kiran S",
+    "title": "Data Analyst",
+    "experience": 3,
+    "skills": ["sql", "power bi", "power query", "excel"],
+    "location": "Bangalore",
+    "notice_days": 15
+  },
+  {
+    "name": "Meera V",
+    "title": "BI Analyst",
+    "experience": 5,
+    "skills": ["excel", "tableau", "sql"],
+    "location": "Chennai",
+    "notice_days": 60
+  }
+]
