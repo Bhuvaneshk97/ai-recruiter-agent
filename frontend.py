@@ -33,19 +33,14 @@ st.markdown("""
     box-shadow: 0 2px 8px rgba(0,0,0,0.06);
     border: 1px solid #eef2f7;
 }
-.small-muted {
-    color:#64748b;
-    font-size:14px;
-}
 .big-title {
-    font-size:48px;
-    font-weight:800;
-    color:#4f46e5;
+    font-size: 42px;
+    font-weight: 800;
+    color: #4f46e5;
 }
 .sub-title {
     color:#475569;
-    margin-top:-10px;
-    margin-bottom:10px;
+    margin-bottom:15px;
 }
 </style>
 """, unsafe_allow_html=True)
@@ -136,10 +131,9 @@ with st.sidebar:
     st.caption("AI-powered candidate discovery & ranking")
 
     st.markdown("---")
-    st.subheader("📄 Job Description")
 
     jd = st.text_area(
-        "Paste JD",
+        "Paste Job Description",
         height=220,
         value="""We are hiring a Power BI Developer with 3+ years experience.
 Must have SQL, DAX, Power Query, Power BI Service.
@@ -147,42 +141,32 @@ Preferred: Python, Azure.
 Location: Chennai / Hybrid."""
     )
 
+    top_n = st.selectbox(
+        "Number of Results",
+        [20, 50, 100, 250],
+        index=2
+    )
+
     run_btn = st.button("🚀 Find Candidates", use_container_width=True)
 
-    st.markdown("---")
-    st.info("Built for hackathon demo • Recruit smarter, faster.")
-
-# ---------------- Main Header ----------------
+# ---------------- Main UI ----------------
 st.markdown('<div class="big-title">✨ AI Recruiter Agent</div>', unsafe_allow_html=True)
-st.markdown(
-    '<div class="sub-title">Automate candidate discovery, outreach and shortlisting using AI</div>',
-    unsafe_allow_html=True
-)
+st.markdown('<div class="sub-title">Discover, score and shortlist top candidates instantly.</div>', unsafe_allow_html=True)
 
 if run_btn:
     parsed = parse_jd(jd)
     result_df = score_candidates(parsed)
 
-    # ---------------- Metrics ----------------
-    top_score = result_df["final_score"].max()
-    high_interest = (result_df["interest_score"] >= 90).sum()
-    strong_matches = (result_df["match_score"] >= 80).sum()
-    total = len(result_df)
-
+    # Metrics
     c1, c2, c3, c4 = st.columns(4)
 
-    with c1:
-        st.markdown('<div class="metric-card">👥 <b>Total Candidates</b><br><span class="big-number">'+str(total)+'</span></div>', unsafe_allow_html=True)
-    with c2:
-        st.markdown(f'<div class="metric-card">✅ <b>Matches Found</b><br>{strong_matches}</div>', unsafe_allow_html=True)
-    with c3:
-        st.markdown(f'<div class="metric-card">⭐ <b>High Interest</b><br>{high_interest}</div>', unsafe_allow_html=True)
-    with c4:
-        st.markdown(f'<div class="metric-card">🏆 <b>Top Score</b><br>{top_score}</div>', unsafe_allow_html=True)
+    c1.metric("Total Candidates", len(result_df))
+    c2.metric("Top Score", result_df["final_score"].max())
+    c3.metric("High Interest", (result_df["interest_score"] >= 90).sum())
+    c4.metric("Strong Matches", (result_df["match_score"] >= 80).sum())
 
     st.write("")
 
-    # ---------------- Tabs ----------------
     tab1, tab2, tab3, tab4 = st.tabs([
         "📌 JD Parsing",
         "🔍 Candidate Matches",
@@ -192,43 +176,27 @@ if run_btn:
 
     # Tab 1
     with tab1:
-        col1, col2 = st.columns([2,1])
-
-        with col1:
-            st.markdown('<div class="section-card">', unsafe_allow_html=True)
-            st.subheader("Parsed Job Description")
-            st.write(f"**Role:** {parsed['role']}")
-            st.write(f"**Experience:** {parsed['experience']}+ years")
-            st.write(f"**Location:** {parsed['location']}")
-            st.write(f"**Skills:** {', '.join(parsed['skills'])}")
-            st.markdown('</div>', unsafe_allow_html=True)
-
-        with col2:
-            st.markdown('<div class="section-card">', unsafe_allow_html=True)
-            st.subheader("Skills Count")
-            skills_df = pd.DataFrame({
-                "Skill": parsed["skills"],
-                "Count": [1]*len(parsed["skills"])
-            })
-            if len(skills_df) > 0:
-                st.bar_chart(skills_df.set_index("Skill"))
-            st.markdown('</div>', unsafe_allow_html=True)
+        st.subheader("Parsed JD")
+        st.write(f"**Role:** {parsed['role']}")
+        st.write(f"**Experience:** {parsed['experience']}+ years")
+        st.write(f"**Location:** {parsed['location']}")
+        st.write(f"**Skills:** {', '.join(parsed['skills'])}")
 
     # Tab 2
     with tab2:
-        st.subheader("Top Matching Candidates")
+        st.subheader(f"Top {top_n} Candidate Matches")
         st.dataframe(
             result_df[[
                 "name","title","experience","location",
                 "match_score","interest_score","final_score","missing_skills"
-            ]].head(20),
+            ]].head(top_n),
             use_container_width=True
         )
 
     # Tab 3
     with tab3:
-        st.subheader("Simulated Conversational Outreach")
-        for _, row in result_df.head(5).iterrows():
+        st.subheader("Simulated Outreach")
+        for _, row in result_df.head(10).iterrows():
             with st.expander(f"Conversation with {row['name']}"):
                 st.write(f"**Agent:** Hi {row['name']}, we found a {parsed['role']} role in {parsed['location']}. Interested?")
                 if row["interest_score"] >= 90:
@@ -239,20 +207,22 @@ if run_btn:
 
     # Tab 4
     with tab4:
-        st.subheader("Final Ranked Shortlist")
+        st.subheader(f"Top {top_n} Final Ranked Shortlist")
 
-        shortlist = result_df.head(20).copy()
+        shortlist = result_df.head(top_n).copy()
         shortlist.insert(0, "rank", range(1, len(shortlist)+1))
 
         st.dataframe(shortlist, use_container_width=True)
 
         csv = shortlist.to_csv(index=False).encode("utf-8")
+
         st.download_button(
-            "⬇ Download Shortlist (CSV)",
+            "⬇ Download Shortlist CSV",
             csv,
             "shortlist.csv",
             "text/csv",
             use_container_width=True
         )
+
 else:
-    st.info("👈 Paste a Job Description in the sidebar and click **Find Candidates**.")
+    st.info("👈 Paste a JD in the sidebar and click Find Candidates.")
