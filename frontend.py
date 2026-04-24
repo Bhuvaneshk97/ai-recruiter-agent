@@ -28,13 +28,6 @@ st.markdown("""
     color:#475569;
     margin-bottom:18px;
 }
-.metric-box {
-    background:white;
-    padding:16px;
-    border-radius:14px;
-    border:1px solid #eef2f7;
-    box-shadow:0 2px 8px rgba(0,0,0,0.05);
-}
 </style>
 """, unsafe_allow_html=True)
 
@@ -42,11 +35,9 @@ st.markdown("""
 @st.cache_data
 def load_candidates():
     df = pd.read_csv("candidates.csv")
-
     df["skills"] = df["skills"].fillna("").apply(
         lambda x: [i.strip().lower() for i in str(x).split(",")]
     )
-
     return df
 
 df_candidates = load_candidates()
@@ -80,37 +71,68 @@ def parse_jd(jd):
         "location": location
     }
 
+# ---------------- DYNAMIC SCORING ----------------
 def score_candidates(parsed):
     rows = []
 
     for _, c in df_candidates.iterrows():
+
         overlap = sum(1 for s in c["skills"] if s in parsed["skills"])
         missing = [s for s in parsed["skills"] if s not in c["skills"]]
 
-        skill_score = min(40, overlap * 10)
-        exp_score = min(25, int(c["experience"]) * 5)
+        exp = int(c["experience"])
+        notice = int(c["notice_days"])
 
-        title_score = 20 if any(
+        # Match Score
+        skill_score = overlap * 12
+        exp_score = min(20, exp * 4)
+
+        title_score = 15 if any(
             x in str(c["title"]).lower()
             for x in ["developer", "analyst", "engineer"]
-        ) else 10
+        ) else 8
 
         location_score = 15 if (
             parsed["location"] == "All" or
             str(c["location"]).lower() == parsed["location"].lower()
-        ) else 8
+        ) else 5
 
-        match_score = skill_score + exp_score + title_score + location_score
+        match_score = min(
+            100,
+            round(skill_score + exp_score + title_score + location_score, 1)
+        )
 
-        notice = int(c["notice_days"])
-        interest_score = 90 if notice <= 30 else 65
+        # Interest Score
+        availability_score = max(5, 30 - (notice / 2))
+        engagement_score = overlap * 5
+        exp_bonus = exp * 2
 
-        final_score = round(match_score * 0.7 + interest_score * 0.3, 2)
+        location_bonus = 10 if (
+            parsed["location"] == "All" or
+            str(c["location"]).lower() == parsed["location"].lower()
+        ) else 3
+
+        interest_score = min(
+            100,
+            round(
+                35 +
+                availability_score +
+                engagement_score +
+                exp_bonus +
+                location_bonus,
+                1
+            )
+        )
+
+        final_score = round(
+            (match_score * 0.7) + (interest_score * 0.3),
+            2
+        )
 
         rows.append({
             "name": c["name"],
             "title": c["title"],
-            "experience": c["experience"],
+            "experience": exp,
             "location": c["location"],
             "email": c["email"],
             "match_score": match_score,
@@ -152,14 +174,11 @@ if run_btn:
     parsed = parse_jd(jd)
     result_df = score_candidates(parsed)
 
-    # Metrics
     c1, c2, c3, c4 = st.columns(4)
     c1.metric("Total Candidates", len(result_df))
     c2.metric("Top Score", result_df["final_score"].max())
-    c3.metric("High Interest", (result_df["interest_score"] >= 90).sum())
+    c3.metric("High Interest", (result_df["interest_score"] >= 85).sum())
     c4.metric("Strong Matches", (result_df["match_score"] >= 80).sum())
-
-    st.write("")
 
     tab1, tab2, tab3, tab4 = st.tabs([
         "📌 JD Parsing",
@@ -168,7 +187,7 @@ if run_btn:
         "🏆 Final Shortlist"
     ])
 
-    # ---------------- TAB 1 ----------------
+    # TAB 1
     with tab1:
         st.subheader("Parsed Job Description")
         st.write(f"**Role:** {parsed['role']}")
@@ -176,10 +195,9 @@ if run_btn:
         st.write(f"**Location:** {parsed['location']}")
         st.write(f"**Skills:** {', '.join(parsed['skills'])}")
 
-    # ---------------- TAB 2 ----------------
+    # TAB 2
     with tab2:
         st.subheader(f"Top {top_n} Candidate Matches")
-
         st.dataframe(
             result_df[[
                 "name","title","experience","location",
@@ -189,93 +207,77 @@ if run_btn:
             use_container_width=True
         )
 
-    # ---------------- TAB 3 ----------------
+    # TAB 3 - INTERACTIVE EMAIL
     with tab3:
         st.subheader("📧 Candidate Outreach")
-        st.caption("Send personalized outreach emails and simulate responses.")
+
+        if "sent_emails" not in st.session_state:
+            st.session_state.sent_emails = {}
+
+        if "open_email" not in st.session_state:
+            st.session_state.open_email = None
 
         for idx, row in result_df.head(10).iterrows():
 
-            col1, col2, col3, col4 = st.columns([3,2,2,2])
+            cc1, cc2, cc3, cc4 = st.columns([3,2,2,2])
 
-            with col1:
-                st.write(f"**{row['name']}**")
-                st.caption(row["title"])
+            cc1.write(f"**{row['name']}**")
+            cc1.caption(row["title"])
 
-            with col2:
-                st.write(f"Match: **{row['match_score']}**")
+            cc2.write(f"Match: **{row['match_score']}**")
+            cc3.write(f"Interest: **{row['interest_score']}**")
 
-            with col3:
-                st.write(f"Interest: **{row['interest_score']}**")
+            if cc4.button("📧 Send Email", key=f"open_{idx}", use_container_width=True):
+                st.session_state.open_email = idx
 
-            with col4:
-                open_mail = st.button(
-                    "📧 Send Email",
-                    key=f"mail_btn_{idx}",
-                    use_container_width=True
+            if st.session_state.open_email == idx:
+
+                st.markdown("---")
+                st.write(f"### 📩 Compose Email to {row['name']}")
+                st.write(f"**To:** {row['email']}")
+
+                subject = st.text_input(
+                    "Subject",
+                    value=f"{parsed['role']} Opportunity in {parsed['location']}",
+                    key=f"sub_{idx}"
                 )
 
-            if open_mail:
-                with st.container(border=True):
+                body = st.text_area(
+                    "Message",
+                    value=f"""Hi {row['name']},
 
-                    st.markdown(f"### 📩 Email to {row['name']}")
-                    st.write(f"**To:** {row['email']}")
+Your profile looks relevant for a {parsed['role']} opportunity in {parsed['location']}.
 
-                    subject = st.text_input(
-                        "Subject",
-                        value=f"{parsed['role']} Opportunity in {parsed['location']}",
-                        key=f"sub_{idx}"
-                    )
-
-                    default_msg = f"""Hi {row['name']},
-
-Your background in {row['title']} looks relevant for a {parsed['role']} role we are hiring for in {parsed['location']}.
-
-Your experience appears aligned with our requirements, and I’d love to connect to discuss this opportunity.
-
-Would you be open to a quick conversation?
+Would you be open to discussing this role?
 
 Best regards,
-Recruitment Team
-"""
+Recruitment Team""",
+                    height=220,
+                    key=f"body_{idx}"
+                )
 
-                    message = st.text_area(
-                        "Message",
-                        value=default_msg,
-                        height=220,
-                        key=f"msg_{idx}"
-                    )
+                send = st.button("🚀 Send Now", key=f"send_{idx}")
 
-                    send_now = st.button(
-                        "🚀 Send Now",
-                        key=f"send_{idx}",
-                        use_container_width=True
-                    )
+                if send:
+                    st.session_state.sent_emails[idx] = True
+                    st.success("✅ Email sent successfully!")
 
-                    if send_now:
-                        st.success("✅ Email sent successfully!")
+                if st.session_state.sent_emails.get(idx, False):
 
-                        if row["interest_score"] >= 90:
-                            reply = "Thanks for reaching out. I'm interested and available soon."
-                            sentiment = "Highly Interested"
-                            updated_score = 95
-                        elif row["interest_score"] >= 75:
-                            reply = "Thanks for the message. Please share more details about the role."
-                            sentiment = "Interested"
-                            updated_score = 85
-                        else:
-                            reply = "Thanks. I’m currently exploring limited opportunities."
-                            sentiment = "Neutral"
-                            updated_score = 70
+                    if row["interest_score"] >= 85:
+                        reply = "Thanks for reaching out. I'm interested. Please share next steps."
+                        sentiment = "Highly Interested"
+                    elif row["interest_score"] >= 70:
+                        reply = "Sounds interesting. Please share compensation and location details."
+                        sentiment = "Interested"
+                    else:
+                        reply = "Thanks. I'm selectively exploring opportunities right now."
+                        sentiment = "Neutral"
 
-                        st.markdown("### 📬 Candidate Response")
-                        st.info(reply)
+                    st.info(f"📬 Candidate Reply: {reply}")
+                    st.metric("Sentiment", sentiment)
 
-                        cc1, cc2 = st.columns(2)
-                        cc1.metric("Sentiment", sentiment)
-                        cc2.metric("Updated Interest Score", updated_score)
-
-    # ---------------- TAB 4 ----------------
+    # TAB 4
     with tab4:
         st.subheader(f"Top {top_n} Final Ranked Shortlist")
 
