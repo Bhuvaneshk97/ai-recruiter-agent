@@ -64,8 +64,45 @@ The system simulates recruiter-candidate conversations and generates an **Intere
 
 ---
 
+
 ## 5. Final Ranked Output
 Candidates are ranked using:
 
 ```text
 Final Score = 0.7 × Match Score + 0.3 × Interest Score
+
+# Architecture Diagram
+
+Recruiter User
+(Pastes Job Description / Reviews Candidates)
+        |
+        v
+Streamlit Frontend
+(UI Dashboard, Tabs, Shortlist, Outreach)
+        |
+        v
+FastAPI Backend
+(Business Logic / API Layer)
+        |
+        +--------------------+
+        |                    |
+        v                    v
+JD Parser            Scoring Engine
+(Role, Skills,       Match Score
+Experience,          Interest Score
+Location)            Final Ranking
+        |                    |
+        +---------+----------+
+                  |
+                  v
+          Outreach Service
+   (Email Drafting / Candidate Response)
+                  |
+                  v
+            Database Layer
+(Candidates, Scores, Outreach Logs, History)
+(SQLite / PostgreSQL)
+                  |
+                  v
+      External Integrations (Optional)
+(Gmail SMTP / ATS / OpenAI / LinkedIn APIs)
