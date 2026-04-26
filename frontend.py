@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import re
+import time
 
 # ---------------- PAGE CONFIG ----------------
 st.set_page_config(
@@ -12,21 +13,26 @@ st.set_page_config(
 # ---------------- CUSTOM CSS ----------------
 st.markdown("""
 <style>
-.main {
-    background-color: #f8fafc;
-}
+.main {background-color:#f8fafc;}
+
 .block-container {
-    padding-top: 1.2rem;
+    padding-top: 3rem;
     padding-bottom: 2rem;
 }
+
 .big-title {
-    font-size: 42px;
+    font-size: 34px;
     font-weight: 800;
     color: #4f46e5;
+    line-height: 1.4;
+    margin-top: 0.5rem;
+    margin-bottom: 0.2rem;
 }
+
 .sub-title {
-    color:#475569;
-    margin-bottom:18px;
+    color: #475569;
+    font-size: 20px;
+    margin-bottom: 18px;
 }
 </style>
 """, unsafe_allow_html=True)
@@ -47,7 +53,7 @@ known_skills = [
     "power query", "excel", "azure", "tableau"
 ]
 
-# ---------------- FUNCTIONS ----------------
+# ---------------- JD PARSER ----------------
 def parse_jd(jd):
     text = jd.lower()
 
@@ -71,19 +77,17 @@ def parse_jd(jd):
         "location": location
     }
 
-# ---------------- DYNAMIC SCORING ----------------
+# ---------------- SCORING ----------------
 def score_candidates(parsed):
     rows = []
 
     for _, c in df_candidates.iterrows():
-
         overlap = sum(1 for s in c["skills"] if s in parsed["skills"])
         missing = [s for s in parsed["skills"] if s not in c["skills"]]
 
         exp = int(c["experience"])
         notice = int(c["notice_days"])
 
-        # Match Score
         skill_score = overlap * 12
         exp_score = min(20, exp * 4)
 
@@ -102,7 +106,6 @@ def score_candidates(parsed):
             round(skill_score + exp_score + title_score + location_score, 1)
         )
 
-        # Interest Score
         availability_score = max(5, 30 - (notice / 2))
         engagement_score = overlap * 5
         exp_bonus = exp * 2
@@ -145,7 +148,7 @@ def score_candidates(parsed):
 
 # ---------------- SIDEBAR ----------------
 with st.sidebar:
-    st.title("🤖 AI Recruiter Agent")
+    st.markdown("## 🤖 AI Recruiter")
     st.caption("AI-powered candidate discovery & outreach")
 
     jd = st.text_area(
@@ -166,8 +169,14 @@ Location: Chennai / Hybrid."""
     run_btn = st.button("🚀 Find Candidates", use_container_width=True)
 
 # ---------------- HEADER ----------------
-st.markdown('<div class="big-title">✨ AI Recruiter Agent</div>', unsafe_allow_html=True)
-st.markdown('<div class="sub-title">Find, engage and shortlist top talent instantly.</div>', unsafe_allow_html=True)
+st.markdown(
+    '<div class="big-title">✨ AI Recruiter Agent</div>',
+    unsafe_allow_html=True
+)
+st.markdown(
+    '<div class="sub-title">Find, engage and shortlist top talent instantly.</div>',
+    unsafe_allow_html=True
+)
 
 # ---------------- MAIN APP ----------------
 if run_btn:
@@ -187,7 +196,6 @@ if run_btn:
         "🏆 Final Shortlist"
     ])
 
-    # TAB 1
     with tab1:
         st.subheader("Parsed Job Description")
         st.write(f"**Role:** {parsed['role']}")
@@ -195,54 +203,54 @@ if run_btn:
         st.write(f"**Location:** {parsed['location']}")
         st.write(f"**Skills:** {', '.join(parsed['skills'])}")
 
-    # TAB 2
     with tab2:
         st.subheader(f"Top {top_n} Candidate Matches")
         st.dataframe(
-            result_df[[
-                "name","title","experience","location",
-                "match_score","interest_score",
-                "final_score","missing_skills"
-            ]].head(top_n),
+            result_df[
+                [
+                    "name","title","experience","location",
+                    "match_score","interest_score",
+                    "final_score","missing_skills"
+                ]
+            ].head(top_n),
             use_container_width=True
         )
 
-    # TAB 3 - INTERACTIVE EMAIL
     with tab3:
         st.subheader("📧 Candidate Outreach")
-
-        if "sent_emails" not in st.session_state:
-            st.session_state.sent_emails = {}
 
         if "open_email" not in st.session_state:
             st.session_state.open_email = None
 
-        for idx, row in result_df.head(10).iterrows():
+        if "sent_emails" not in st.session_state:
+            st.session_state.sent_emails = {}
 
-            cc1, cc2, cc3, cc4 = st.columns([3,2,2,2])
+        for _, row in result_df.head(10).iterrows():
+            candidate_id = row["email"]
 
-            cc1.write(f"**{row['name']}**")
-            cc1.caption(row["title"])
+            col1, col2, col3, col4 = st.columns([3,2,2,2])
 
-            cc2.write(f"Match: **{row['match_score']}**")
-            cc3.write(f"Interest: **{row['interest_score']}**")
+            col1.write(f"**{row['name']}**")
+            col1.caption(row["title"])
 
-            if cc4.button("📧 Send Email", key=f"open_{idx}", use_container_width=True):
-                st.session_state.open_email = idx
+            col2.write(f"Match: **{row['match_score']}**")
+            col3.write(f"Interest: **{row['interest_score']}**")
 
-            if st.session_state.open_email == idx:
+            if col4.button("📧 Send Email", key=f"open_{candidate_id}", use_container_width=True):
+                st.session_state.open_email = candidate_id
 
+            if st.session_state.open_email == candidate_id:
                 st.markdown("---")
                 st.write(f"### 📩 Compose Email to {row['name']}")
                 st.write(f"**To:** {row['email']}")
 
-                subject = st.text_input(
+                st.text_input(
                     "Subject",
                     value=f"{parsed['role']} Opportunity in {parsed['location']}",
-                    key=f"sub_{idx}"
+                    key=f"subject_{candidate_id}"
                 )
 
-                body = st.text_area(
+                st.text_area(
                     "Message",
                     value=f"""Hi {row['name']},
 
@@ -253,31 +261,34 @@ Would you be open to discussing this role?
 Best regards,
 Recruitment Team""",
                     height=220,
-                    key=f"body_{idx}"
+                    key=f"body_{candidate_id}"
                 )
 
-                send = st.button("🚀 Send Now", key=f"send_{idx}")
+                send_col, close_col = st.columns(2)
 
-                if send:
-                    st.session_state.sent_emails[idx] = True
-                    st.success("✅ Email sent successfully!")
+                if send_col.button("🚀 Send Now", key=f"send_{candidate_id}", use_container_width=True):
+                    with st.spinner("Sending email..."):
+                        time.sleep(1.2)
+                    st.session_state.sent_emails[candidate_id] = True
+                    st.success("✅ Email sent successfully to candidate!")
 
-                if st.session_state.sent_emails.get(idx, False):
+                if close_col.button("❌ Close", key=f"close_{candidate_id}", use_container_width=True):
+                    st.session_state.open_email = None
 
+                if st.session_state.sent_emails.get(candidate_id, False):
                     if row["interest_score"] >= 85:
                         reply = "Thanks for reaching out. I'm interested. Please share next steps."
                         sentiment = "Highly Interested"
                     elif row["interest_score"] >= 70:
-                        reply = "Sounds interesting. Please share compensation and location details."
+                        reply = "Sounds interesting. Please share compensation and role details."
                         sentiment = "Interested"
                     else:
-                        reply = "Thanks. I'm selectively exploring opportunities right now."
+                        reply = "Thanks. I’m selectively exploring opportunities right now."
                         sentiment = "Neutral"
 
                     st.info(f"📬 Candidate Reply: {reply}")
                     st.metric("Sentiment", sentiment)
 
-    # TAB 4
     with tab4:
         st.subheader(f"Top {top_n} Final Ranked Shortlist")
 
@@ -297,4 +308,4 @@ Recruitment Team""",
         )
 
 else:
-    st.info("👈 Paste a Job Description in the sidebar and click Find Candidates.")
+    st.info("👉 Paste a Job Description in the sidebar and click Find Candidates.")
